@@ -56,9 +56,15 @@ Non-Gentoo patches
 [etc/bash/bashrc](etc/bash/bashrc)
 
 ### vim
-vim color scheme
-vimrc @ /nfs/nobackup2/saezgrp/mike-software/gentoo/etc/vim/vimrc.local
-wombat @ /nfs/nobackup2/saezgrp/mike-software/gentoo/usr/share/vim/vim74/colors/
+
+Files for setting up vim:
+
+ * [vimrc.local](etc/vim/vimrc.local)
+ * [wombat](usr/share/vim/vim74/colors/)
+
+Installed plugins:
+
+    emerge app-vim/youcompleteme
 
 ### BLAS/LAPACK
 link .pc files to PKGCONFIG dir, LAPACK= env var for scipy
