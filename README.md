@@ -48,8 +48,24 @@ Non-Gentoo patches
 ------------------
 
 ### portage
-/nfs/research2/saezrodriguez/mike-software/usr/lib/portage/pym/portage/process.py
-518/522 gid, groupstuff: pass
+
+The following path is needed for [portage/process.py](usr/lib/portage/pym/portage/process.py)
+because users can't set group IDs on the EBI cluster:
+
+    --- process.py  2014-03-09 15:55:17.382599199 +0000
+    +++ process.py.backup   2014-03-09 15:55:03.455078692 +0000
+    @@ -515,9 +515,9 @@ def _exec(binary, mycommand, opt_name, f
+        # Set requested process permissions.
+        if gid:
+            # Cast proxies to int, in case it matters.
+    -           pass
+    +       os.setgid(int(gid))
+        if groups:
+    -       pass
+    +       os.setgroups(groups)
+        if uid:
+            # Cast proxies to int, in case it matters.
+            os.setuid(int(uid))
 
 ### shell bashrc
 
