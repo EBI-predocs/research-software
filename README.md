@@ -52,17 +52,17 @@ Non-Gentoo patches
 The following path is needed for [portage/process.py](usr/lib/portage/pym/portage/process.py)
 because users can't set group IDs on the EBI cluster:
 
-    --- process.py  2014-03-09 15:55:17.382599199 +0000
-    +++ process.py.backup   2014-03-09 15:55:03.455078692 +0000
+    --- process.py.orig  2014-03-09 15:55:17.382599199 +0000
+    +++ process.py   2014-03-09 15:55:03.455078692 +0000
     @@ -515,9 +515,9 @@ def _exec(binary, mycommand, opt_name, f
         # Set requested process permissions.
         if gid:
             # Cast proxies to int, in case it matters.
-    -           pass
-    +       os.setgid(int(gid))
+    -       os.setgid(int(gid))
+    +       pass
         if groups:
-    -       pass
-    +       os.setgroups(groups)
+    -       os.setgroups(groups)
+    +       pass
         if uid:
             # Cast proxies to int, in case it matters.
             os.setuid(int(uid))
