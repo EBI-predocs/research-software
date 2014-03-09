@@ -1,0 +1,5 @@
+dev-lang/R tk
+sci-libs/mkl fftw
+sci-libs/hdf5 -fortran -cxx
+media-gfx/tachyon mpi
+media-libs/gd fontconfig
