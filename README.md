@@ -53,7 +53,14 @@ Non-Gentoo patches
 
 ### shell bashrc
 
-[etc/bash/bashrc](etc/bash/bashrc)
+Setting up *PATH*, *LD_LIBRARY_PATH* in [etc/bash/bashrc](etc/bash/bashrc).
+This file is automatically executed for the prefix bash (and also sets up the
+LSF config). Otherwise, add the three lines below to the user bashrc:
+
+    export EPREFIX=/nfs/research2/saezrodriguez/mike-software
+    export PATH=$EPREFIX/usr/bin:$EPREFIX/sbin:$EPREFIX/bin:$PATH
+    export LD_LIBRARY_PATH=$EPREFIX/usr/lib:$LD_LIBRARY_PATH
+
 
 ### vim
 

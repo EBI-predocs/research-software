@@ -7,7 +7,7 @@
 
 export EPREFIX=/nfs/research2/saezrodriguez/mike-software
 export PATH=$EPREFIX/usr/bin:$EPREFIX/sbin:$EPREFIX/bin
-export LD_LIBRARY_PATH=$EPREFIX/usr/lib:/usr/lib
+export LD_LIBRARY_PATH=$EPREFIX/usr/lib
 
 PATH=$PATH:/ebi/lsf/ebi/ppm/9.1/bin:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/bin:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/kerberos/sbin:/usr/kerberos/bin:~/bin
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/lib:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
@@ -53,7 +53,7 @@ use_color=false
 safe_term=${TERM//[^[:alnum:]]/?}   # sanitize TERM
 match_lhs=""
 [[ -f ~/.dir_colors   ]] && match_lhs="${match_lhs}$(<~/.dir_colors)"
-[[ -f "/nfs/research2/saezrodriguez/mike-software"/etc/DIR_COLORS ]] && match_lhs="${match_lhs}$(<"/nfs/research2/saezrodriguez/mike-software"/etc/DIR_COLORS)"
+[[ -f "$EPREFIX"/etc/DIR_COLORS ]] && match_lhs="${match_lhs}$(<"$EPREFIX"/etc/DIR_COLORS)"
 [[ -z ${match_lhs}    ]] \
 	&& type -P dircolors >/dev/null \
 	&& match_lhs=$(dircolors --print-database)
@@ -62,9 +62,9 @@ match_lhs=""
 if ${use_color} ; then
 	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
 	if [[ -f ~/.dir_colors ]] ; then
-		eval $("/nfs/research2/saezrodriguez/mike-software"/usr/bin/dircolors -b ~/.dir_colors);
-	elif [[ -f "/nfs/research2/saezrodriguez/mike-software"/etc/DIR_COLORS ]] ; then
-		eval $("/nfs/research2/saezrodriguez/mike-software"/usr/bin/dircolors -b "/nfs/research2/saezrodriguez/mike-software"/etc/DIR_COLORS)
+		eval $("$EPREFIX"/usr/bin/dircolors -b ~/.dir_colors);
+	elif [[ -f "$EPREFIX"/etc/DIR_COLORS ]] ; then
+		eval $("$EPREFIX"/usr/bin/dircolors -b "$EPREFIX"/etc/DIR_COLORS)
 	fi
 		   
 	if [[ ${EUID} == 0 ]] ; then
