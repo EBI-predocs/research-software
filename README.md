@@ -1,65 +1,72 @@
-gentoo-prefix
+Gentoo Prefix
 =============
 
-r-tcltk
-configure.ac:374 $EPREFIX
+Portage
+-------
 
-### portage patch for cluster
+### Config files
+
+ * Make config file: [make.conf](etc/portage/make.profile/make.conf)
+ * System-wide USE flags: [make.conf](etc/portage/make.profile/make.conf)
+ * Package specific USE flags: [package.use](etc/portage/package.use)
+ * Packages provided by the host system: [package.provided](etc/portage/package.provided)
+
+### Using emerge
+
+Install a package with custom use flags:
+
+    USE="flag1 -flag2" emerge something
+
+Overwrite system files:
+
+    FEATURES="-collision-detect -protect-owned" emerge =repo/pkg-version
+
+Accept custom license:
+
+    ACCEPT_LICENSE="*" or "@FREE"
+
+### Layman (overlay manager)
+
+source $EPREFIX/var/lib/layman/make.conf
+
+
+### Manually building packages
+
+All package files and patches are in
+
+    $EPREFIX/usr/portage/*
+
+To build a package manually, the commands are:
+
+    # edit the .ebuild file...
+    ebuild R-3.0.2.ebuild manifest
+    ebuild R-3.0.2.ebuild clean
+    ebuild R-3.0.2.ebuild configure # configure only
+    ebuild R-3.0.2.ebuild merge     # all steps, install after
+
+Non-Gentoo patches
+------------------
+
+### portage
 /nfs/research2/saezrodriguez/mike-software/usr/lib/portage/pym/portage/process.py
 518/522 gid, groupstuff: pass
 
+### shell bashrc
+
+[etc/bash/bashrc](etc/bash/bashrc)
+
+### vim
 vim color scheme
 vimrc @ /nfs/nobackup2/saezgrp/mike-software/gentoo/etc/vim/vimrc.local
 wombat @ /nfs/nobackup2/saezgrp/mike-software/gentoo/usr/share/vim/vim74/colors/
 
-### specific packages
-rlog:
-change doc dir to $EPREFIX @ebuild && ebuild file manifest
-encfs:
-ac_boost_path=/nfs/nobackup2/saezgrp/mike-software/gentoo/usr/ ACCEPT_KEYWORDS="**" USE="-doc" emerge encfs
-
 ### BLAS/LAPACK
 link .pc files to PKGCONFIG dir, LAPACK= env var for scipy
-
-$EPREFIX/etc/portage/make.profile/make.conf
-# use the 2nd optimization level (-O3 can be unstable), 
-# use pipes rather than temporary files for compilation 
-# stages, and tune the binary to make use of native
-# processor capabilities
-CFLAGS="-O2 -pipe -march=native"
-# These flags apply to C++ as well
-CXXFLAGS="${CFLAGS}"
-
-### etc/portage/make.conf
-USE="cairo svg tiff gif jpeg png gzip bzip2 truetype X lapack blas python perl ruby nls ncurses readline xml bash-completion openmp -doc fortran pcre ssl sqlite threads"
-# for overlay: graphviz imagemagick int64
-#addd: clang
-source /nfs/research2/saezrodriguez/mike-software/var/lib/layman/make.conf
-
-### etc/portage/package.provided
-
-
-PACKAGE USE FLAGS: etc/portage/package.use
-dev-lang/R tk
-sci-libs/mkl fftw
-sci-libs/hdf5 -fortran -cxx
-media-gfx/tachyon mpi
 
 stable packages
 etc/portage/make.profile/make.defaults
 ~amd64-linux -> w/o ~
 
-collisions, keywords, licenses
-FEATURES="-collision-detect -protect-owned" emerge =repo/pkg-version
-ACCEPT_LICENSE="*" or "@FREE"
-
-Package files and patches
-usr/portage/*
-
-### Fixing ebuilds
-ebuild R-3.0.2.ebuild manifest
-ebuild R-3.0.2.ebuild clean [if files left over from previous tries]
-ebuild R-3.0.2.ebuild merge
 
 ### intel mkl
 copy /opt/intel/licenses/* to prefix
