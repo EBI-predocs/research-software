@@ -3,3 +3,6 @@ sci-libs/mkl fftw
 sci-libs/hdf5 -fortran -cxx
 media-gfx/tachyon mpi
 media-libs/gd fontconfig
+app-text/docbook-xsl-stylesheets -ruby
+dev-python/ipython "examples matplotlib notebook qt4"
+#dev-python/ipython "examples matplotlib mongodb nbconvert notebook octave qt4"

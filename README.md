@@ -96,21 +96,7 @@ stable packages
 etc/portage/make.profile/make.defaults
 ~amd64-linux -> w/o ~
 
-
-### intel mkl
+intel mkl
 copy /opt/intel/licenses/* to prefix
 systems recommends icc instead of gcc, does that make sense? (and: will it work?)
-
-$EPREFIX/etc/bash/bashrc
-export EPREFIX=/nfs/research2/saezrodriguez/mike-software
-export PATH=$EPREFIX/usr/bin:$EPREFIX/sbin:$EPREFIX/bin
-export LD_LIBRARY_PATH=$EPREFIX/usr/lib:/usr/lib
-
-PATH=$PATH:/ebi/lsf/ebi/ppm/9.1/bin:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/bin:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/kerberos/sbin:/usr/kerberos/bin
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/lib:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
-export LSF_BINDIR=/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin
-export LSF_ENVDIR=/ebi/lsf/ebi/conf
-export LSF_LIBDIR=/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
-export LSF_SERVERDIR=/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc
-
 
