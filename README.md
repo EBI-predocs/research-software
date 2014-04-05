@@ -9,8 +9,8 @@ In general, software should work out of the box.
 If it doesn't (or you would like something installed) open it as an issue and I'll
 see what I can do.
 
-Portage
--------
+Admin guide
+-----------
 
 ### Config files
 
@@ -29,7 +29,8 @@ Portage
      * [BatchJobs_global_config.R](lib/R/library/BatchJobs/etc/BatchJobs_global_config.R) - 
        BatchJobs LSF config file
    * share/vim/vim74/colors
-     * wombat.vim, wombat256.vim - wombat color scheme
+     * [wombat.vim](usr/share/vim/vim74/colors/wombat.vim),
+       [wombat256.vim](usr/share/vim/vim74/colors/wombat256.vim) - wombat color scheme
  * var
    * lib
      * layman
