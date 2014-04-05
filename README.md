@@ -4,9 +4,9 @@ Gentoo Prefix
 User guide
 ----------
 
-In general, software should work out of the box.
+Setup instructions are available in the [config repository](https://github.com/EBI-predocs/config#setting-up-your-environment). In general, software should work out of the box.
 
-If it doesn't (or you would like something installed) open it as an issue and I'll
+If you have problems (or you would like something installed) open it as an issue and I'll
 see what I can do.
 
 Admin guide
@@ -23,7 +23,7 @@ Admin guide
      * [package.unmask](etc/portage/package.unmask) - whitelisted masked packages
      * [package.use](etc/portage/package.use) - package-specific USE flags
    * vim
-     * [vimrc.local](etc/vim/vimrc.local)
+     * [vimrc.local](etc/vim/vimrc.local) - default vim config
  * usr
    * lib/R/library/BatchJobs/etc
      * [BatchJobs_global_config.R](usr/lib/R/library/BatchJobs/etc/BatchJobs_global_config.R) - 
@@ -70,7 +70,20 @@ Read prefix-specific news
 
 ### Layman (overlay manager)
 
-source $EPREFIX/var/lib/layman/make.conf
+List available overlays:
+
+    layman -L
+
+Add an overlay:
+
+    layman -a <overlay name>
+
+Update all overlays:
+
+    layman -S
+
+Packages are added to the main portage tree and can be installed and updated 
+using `emerge`. Explicit referencing can be done with `repo/pkg::overlay`.
 
 ### Manually building packages
 
@@ -109,41 +122,9 @@ because users can't set group IDs on the EBI cluster:
             # Cast proxies to int, in case it matters.
             os.setuid(int(uid))
 
-### shell bashrc
-
-Setting up *PATH*, *LD_LIBRARY_PATH* in [etc/bash/bashrc](etc/bash/bashrc).
-This file is automatically executed for the prefix bash (and also sets up the
-LSF config). Otherwise, add the three lines below to the user bashrc:
-
-    export EPREFIX=/nfs/research2/saezrodriguez/mike-software
-    export PATH=$EPREFIX/usr/bin:$EPREFIX/sbin:$EPREFIX/bin:$PATH
-    export LD_LIBRARY_PATH=$EPREFIX/usr/lib:$LD_LIBRARY_PATH
-
-
-### vim
-
-Files for setting up vim:
-
- * [vimrc.local](etc/vim/vimrc.local)
- * [wombat](usr/share/vim/vim74/colors/)
-
-Installed plugins:
-
-    emerge app-vim/youcompleteme
-
 ### BLAS/LAPACK
 
-Use openblas from the `science` overlay.
+Use `openblas` from the `science` overlay.
 
-Note: below are MKL tryouts but they don't work
-
-> link .pc files to PKGCONFIG dir, LAPACK= env var for scipy
-> 
-> stable packages
-> etc/portage/make.profile/make.defaults
-> ~amd64-linux -> w/o ~
->
-> intel mkl
-> copy /opt/intel/licenses/* to prefix
-> systems recommends icc instead of gcc, does that make sense? (and: will it work?)
+R additionally needs `libblas.so` and `libcblas.so` to symlink to `libopenblas.so`
 
