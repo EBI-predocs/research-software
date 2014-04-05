@@ -1,4 +1,6 @@
 app-admin/eselect
+app-admin/perl-cleaner
+app-admin/python-updater
 app-editors/vim
 app-misc/tmux
 app-portage/gentoolkit

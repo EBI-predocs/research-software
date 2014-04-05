@@ -1,15 +1,41 @@
 Gentoo Prefix
 =============
 
+User guide
+----------
+
+In general, software should work out of the box.
+
+If it doesn't (or you would like something installed) open it as an issue and I'll
+see what I can do.
+
 Portage
 -------
 
 ### Config files
 
- * Make config file: [make.conf](etc/portage/make.profile/make.conf)
- * System-wide USE flags: [make.conf](etc/portage/make.profile/make.conf)
- * Package specific USE flags: [package.use](etc/portage/package.use)
- * Packages provided by the host system: [package.provided](etc/portage/package.provided)
+ * etc
+   * bash
+     * [bashrc](etc/bash/bashrc)
+   * portage
+     * [make.conf](etc/portage/make.profile/make.conf) - global USE flags, make flags
+     * [package.provided](etc/portage/package.provided) - packages provided by host system
+     * [package.unmask](etc/portage/package.unmask) - whitelisted masked packages
+     * [package.use](etc/portage/package.use) - package-specific USE flags
+   * vim
+     * [vimrc.local](etc/vim/vimrc.local)
+ * usr
+   * lib/R/library/BatchJobs/etc
+     * [BatchJobs_global_config.R](lib/R/library/BatchJobs/etc/BatchJobs_global_config.R) - 
+       BatchJobs LSF config file
+   * share/vim/vim74/colors
+     * wombat.vim, wombat256.vim - wombat color scheme
+ * var
+   * lib
+     * layman
+       * [make.conf](var/lib/layman/make.conf) - configuration of overlays
+     * portage
+       * [world](var/lib/portage/world) - list of all explicitly installed packages
 
 ### Using emerge
 
@@ -21,20 +47,35 @@ Overwrite system files:
 
     FEATURES="-collision-detect -protect-owned" emerge =repo/pkg-version
 
+Accept keywords (do not use this on global updates):
+
+    ACCEPT_KEYWORDS="**"
+
 Accept custom license:
 
-    ACCEPT_LICENSE="*" or "@FREE"
+    ACCEPT_LICENSE="**" or "@FREE"
+
+### Using eselect
+
+Selecting specific software versions
+
+    eselect python list      # lists all available python interpreters
+    eselect python set <num> # choose interpreter <num> as default
+
+Read prefix-specific news
+
+    eselect news list        # list all items
+    eselect news read <num>  # read item with number <num>
 
 ### Layman (overlay manager)
 
 source $EPREFIX/var/lib/layman/make.conf
 
-
 ### Manually building packages
 
 All package files and patches are in
 
-    $EPREFIX/usr/portage/*
+    usr/portage/*
 
 To build a package manually, the commands are:
 
@@ -90,13 +131,18 @@ Installed plugins:
     emerge app-vim/youcompleteme
 
 ### BLAS/LAPACK
-link .pc files to PKGCONFIG dir, LAPACK= env var for scipy
 
-stable packages
-etc/portage/make.profile/make.defaults
-~amd64-linux -> w/o ~
+Use openblas from the `science` overlay.
 
-intel mkl
-copy /opt/intel/licenses/* to prefix
-systems recommends icc instead of gcc, does that make sense? (and: will it work?)
+Note: below are MKL tryouts but they don't work
+
+> link .pc files to PKGCONFIG dir, LAPACK= env var for scipy
+> 
+> stable packages
+> etc/portage/make.profile/make.defaults
+> ~amd64-linux -> w/o ~
+>
+> intel mkl
+> copy /opt/intel/licenses/* to prefix
+> systems recommends icc instead of gcc, does that make sense? (and: will it work?)
 
