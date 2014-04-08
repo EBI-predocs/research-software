@@ -87,9 +87,7 @@ using `emerge`. Explicit referencing can be done with `repo/pkg::overlay`.
 
 ### Manually building packages
 
-All package files and patches are in
-
-    usr/portage/*
+All package files and patches are in [usr/portage/*](usr/portage)
 
 To build a package manually, the commands are:
 
@@ -99,8 +97,16 @@ To build a package manually, the commands are:
     ebuild R-3.0.2.ebuild configure # configure only
     ebuild R-3.0.2.ebuild merge     # all steps, install after
 
-Non-Gentoo patches
-------------------
+The full list of options is below.
+
+> !!! clean      cleanrm    compile    config     configure  depend     
+> !!! digest     fetch      fetchall   help       info       install    
+> !!! manifest   merge      nofetch    package    postinst   postrm     
+> !!! preinst    prepare    prerm      pretend    qmerge     rpm        
+> !!! setup      test       unmerge    unpack     
+
+EBI cluster setup
+-----------------
 
 ### portage
 
@@ -126,5 +132,8 @@ because users can't set group IDs on the EBI cluster:
 
 Use `openblas` from the `science` overlay.
 
-R additionally needs `libblas.so` and `libcblas.so` to symlink to `libopenblas.so`
+    emerge lapack-reference::science openblas lapack::science cblas::science blas::science 
+    eselect cblas set openblas-threads # R has problems with openblas-int64-threads
+    eselect blas set openblas-threads
+    eselect lapack set reference
 

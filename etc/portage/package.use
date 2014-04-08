@@ -9,3 +9,4 @@ dev-python/ipython examples matplotlib notebook qt4
 sci-libs/linbox sage
 sci-mathematics/gmp-ecm -openmp
 sci-mathematics/maxima ecls
+sci-mathematics/sage -java
