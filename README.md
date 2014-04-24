@@ -22,6 +22,7 @@ Admin guide
      * [package.provided](etc/portage/package.provided) - packages provided by host system
      * [package.unmask](etc/portage/package.unmask) - whitelisted masked packages
      * [package.use](etc/portage/package.use) - package-specific USE flags
+     * [package.accept_keywords](etc/portage/package.accept_keywords) - unstable keywords for otherwise stable system
    * vim
      * [vimrc.local](etc/vim/vimrc.local) - default vim config
  * usr
@@ -99,11 +100,11 @@ To build a package manually, the commands are:
 
 The full list of options is below.
 
-> !!! clean      cleanrm    compile    config     configure  depend     
-> !!! digest     fetch      fetchall   help       info       install    
-> !!! manifest   merge      nofetch    package    postinst   postrm     
-> !!! preinst    prepare    prerm      pretend    qmerge     rpm        
-> !!! setup      test       unmerge    unpack     
+    !!! clean      cleanrm    compile    config     configure  depend     
+    !!! digest     fetch      fetchall   help       info       install    
+    !!! manifest   merge      nofetch    package    postinst   postrm     
+    !!! preinst    prepare    prerm      pretend    qmerge     rpm        
+    !!! setup      test       unmerge    unpack     
 
 EBI cluster setup
 -----------------

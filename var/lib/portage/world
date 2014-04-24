@@ -5,7 +5,9 @@ app-editors/vim
 app-misc/tmux
 app-portage/gentoolkit
 app-portage/layman
+app-text/xmlstarlet
 app-vim/youcompleteme
+dev-db/mysql
 dev-lang/R
 dev-lang/python
 dev-lang/ruby
@@ -28,8 +30,12 @@ dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
 net-libs/zeromq
+net-misc/s3cmd
 net-misc/unison
 net-misc/unison:2.40
+sci-CRAN/gtools
+sci-CRAN/plyr
+sci-CRAN/roxygen2
 sci-biology/bedtools
 sci-biology/biopython
 sci-biology/bowtie
@@ -57,3 +63,4 @@ virtual/cblas::science
 virtual/lapack
 virtual/lapack::science
 www-servers/tornado
+x11-apps/xclock
