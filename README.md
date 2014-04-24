@@ -41,17 +41,19 @@ Admin guide
 
 ### Using emerge
 
-Install a package with custom use flags:
+Install a package with custom use flags (preferred:
+        [package.use](etc/portage/package.use) file):
 
     USE="flag1 -flag2" emerge something
+
+Accept keywords (do not use this on global updates; preferred:
+        [package.accept_keywords](etc/portage/package.accept_keywords) file):
+
+    ACCEPT_KEYWORDS="**"
 
 Overwrite system files:
 
     FEATURES="-collision-detect -protect-owned" emerge =repo/pkg-version
-
-Accept keywords (do not use this on global updates):
-
-    ACCEPT_KEYWORDS="**"
 
 Accept custom license:
 

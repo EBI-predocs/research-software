@@ -23,6 +23,7 @@ dev-python/numpy
 dev-python/pandas
 dev-python/pip
 dev-python/pyzmq
+dev-python/simplejson
 dev-python/sympy
 dev-util/pkgconfig
 dev-vcs/bzr
@@ -33,6 +34,8 @@ net-libs/zeromq
 net-misc/s3cmd
 net-misc/unison
 net-misc/unison:2.40
+sci-CRAN/RSQLite
+sci-CRAN/fail
 sci-CRAN/gtools
 sci-CRAN/plyr
 sci-CRAN/roxygen2
@@ -41,8 +44,10 @@ sci-biology/biopython
 sci-biology/bowtie
 sci-biology/bwa
 sci-biology/samtools
+sci-biology/tophat
 sci-libs/blas-reference
 sci-libs/cblas-reference
+sci-libs/gsl
 sci-libs/hdf5
 sci-libs/lapack-reference
 sci-libs/lapack-reference::science
