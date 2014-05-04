@@ -1,4 +1,13 @@
 =net-misc/s3cmd-1.0.1 **
 =sci-biology/tophat-2.0.9 **
-=virtual/mysql-5.1 **
 */*::R_Overlay **
+dev-haskell/alex **
+dev-haskell/happy **
+#dev-haskell/* **
+=dev-python/ipython-1.2.1::sage-on-gentoo[nbconvert] **
+app-text/pandoc **
+dev-db/mongodb **
+dev-python/pymongo **
+#sage- specific below
+dev-java/icedtea-bin **
+=sys-libs/glibc-9999 **
