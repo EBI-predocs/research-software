@@ -1,1 +1,6 @@
-=dev-python/lockfile-0.9.1-r1
+dev-python/lockfile
+=app-text/ghostscript-gpl-9.10-r1[cups]
+=sys-libs/glibc-9999
+sci-R/TH_data
+app-vim/youcompleteme
+=sys-devel/gcc-4.8.2-r1
