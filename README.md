@@ -140,3 +140,9 @@ Use `openblas` from the `science` overlay.
     eselect blas set openblas-threads
     eselect lapack set reference
 
+### Links
+
+    ln -s /usr/bin/crontab $EPREFIX/usr/bin/crontab
+    ln -s /usr/bin/finger $EPREFIX/usr/bin/finger
+    ln -s /usr/bin/svn $EPREFIX/usr/bin/svn
+
