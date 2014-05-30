@@ -2,6 +2,7 @@ app-admin/eselect
 app-admin/haskell-updater
 app-admin/perl-cleaner
 app-admin/python-updater
+app-editors/nano
 app-editors/vim
 app-misc/tmux
 app-portage/gentoolkit
@@ -10,13 +11,16 @@ app-shells/bash-completion
 app-text/ghostscript-gpl
 app-text/xmlstarlet
 app-vim/youcompleteme
+dev-db/mariadb
 dev-haskell/cabal
 dev-lang/R
 dev-lang/ghc
+dev-lang/perl
 dev-lang/python
 dev-lang/ruby
 dev-libs/boost
 dev-libs/nspr
+dev-libs/openssl
 dev-python/cython
 dev-python/ipython
 dev-python/jinja
@@ -38,6 +42,7 @@ dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
 net-libs/zeromq
+net-misc/openssh
 net-misc/s3cmd
 net-misc/unison
 net-misc/unison:2.40
@@ -86,6 +91,7 @@ sci-CRAN/dplyr
 sci-CRAN/e1071
 sci-CRAN/fail
 sci-CRAN/fastICA
+sci-CRAN/glmnet
 sci-CRAN/gtools
 sci-CRAN/knitr
 sci-CRAN/lme4
@@ -106,6 +112,7 @@ sci-biology/bedtools
 sci-biology/biopython
 sci-biology/bowtie
 sci-biology/bwa
+sci-biology/hmmer
 sci-biology/mrfast
 sci-biology/mrsfast
 sci-biology/phyml
@@ -125,6 +132,8 @@ sci-mathematics/octave
 sys-apps/ack
 sys-apps/attr
 sys-apps/portage
+sys-devel/autoconf
+sys-devel/automake
 sys-devel/clang
 sys-devel/gcc
 sys-devel/llvm

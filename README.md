@@ -27,7 +27,7 @@ Admin guide
      * [vimrc.local](etc/vim/vimrc.local) - default vim config
  * usr
    * lib/R/library/BatchJobs/etc
-     * [BatchJobs_global_config.R](usr/lib/R/library/BatchJobs/etc/BatchJobs_global_config.R) - 
+     * [BatchJobs_global_config.R](usr/lib/R/site-library/BatchJobs/etc/BatchJobs_global_config.R) - 
        BatchJobs LSF config file
    * share/vim/vim74/colors
      * [wombat.vim](usr/share/vim/vim74/colors/wombat.vim),

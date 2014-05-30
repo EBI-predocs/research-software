@@ -1,6 +1,7 @@
 net-misc/s3cmd **
 */*::R_Overlay **
 */*::science **
+*/*::java **
 dev-tcltk/tklib ** #staden
 #dev-haskell/* **
 =dev-python/ipython-1.2.1::sage-on-gentoo[nbconvert] **

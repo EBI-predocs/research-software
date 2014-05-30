@@ -4,7 +4,10 @@ dev-lang/R tk
 sci-libs/mkl fftw
 sci-libs/hdf5 -fortran -cxx
 media-gfx/tachyon mpi
+net-dns/avahi -python
 media-libs/gd fontconfig
+#net-print/cups -ssl # doesn't help
+#dev-vcs/subversion -ssl # doesn't help
 app-text/docbook-xsl-stylesheets -ruby
 dev-lang/ghc ghcbootstrap
 #dev-python/ipython examples matplotlib notebook qt4

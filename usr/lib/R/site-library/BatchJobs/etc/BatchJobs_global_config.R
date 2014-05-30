@@ -8,8 +8,8 @@ mail.from = "<lsf@ebi.ac.uk>"
 mail.to = paste0("<", Sys.info()[["user"]], "@ebi.ac.uk>")
 mail.control = list(smtpServer="mx1.ebi.ac.uk")
 
-db.driver = "SQLite"
-db.options = list()
+#db.driver = "SQLite"
+#db.options = list()
 
 #default.chunks.as.arrayjobs = TRUE
 #default.max.retries = 3
