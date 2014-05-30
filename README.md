@@ -111,26 +111,6 @@ The full list of options is below.
 EBI cluster setup
 -----------------
 
-### portage
-
-The following path is needed for [portage/process.py](usr/lib/portage/pym/portage/process.py)
-because users can't set group IDs on the EBI cluster:
-
-    --- process.py.orig  2014-03-09 15:55:17.382599199 +0000
-    +++ process.py   2014-03-09 15:55:03.455078692 +0000
-    @@ -515,9 +515,9 @@ def _exec(binary, mycommand, opt_name, f
-        # Set requested process permissions.
-        if gid:
-            # Cast proxies to int, in case it matters.
-    -       os.setgid(int(gid))
-    +       pass
-        if groups:
-    -       os.setgroups(groups)
-    +       pass
-        if uid:
-            # Cast proxies to int, in case it matters.
-            os.setuid(int(uid))
-
 ### BLAS/LAPACK
 
 Use `openblas` from the `science` overlay.
@@ -144,5 +124,4 @@ Use `openblas` from the `science` overlay.
 
     ln -s /usr/bin/crontab $EPREFIX/usr/bin/crontab
     ln -s /usr/bin/finger $EPREFIX/usr/bin/finger
-    ln -s /usr/bin/svn $EPREFIX/usr/bin/svn
 
