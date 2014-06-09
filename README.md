@@ -19,7 +19,7 @@ Admin guide
      * [bashrc](etc/bash/bashrc)
    * portage
      * [make.conf](etc/portage/make.profile/make.conf) - global USE flags, make flags
-     * [package.provided](etc/portage/package.provided) - packages provided by host system
+     * [package.provided](usr/portage/profiles/prefix/linux/amd64/package.provided) - packages provided by host system
      * [package.unmask](etc/portage/package.unmask) - whitelisted masked packages
      * [package.use](etc/portage/package.use) - package-specific USE flags
      * [package.accept_keywords](etc/portage/package.accept_keywords) - unstable keywords for otherwise stable system

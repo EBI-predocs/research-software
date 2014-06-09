@@ -8,7 +8,6 @@ app-misc/tmux
 app-portage/gentoolkit
 app-portage/layman
 app-shells/bash-completion
-app-text/ghostscript-gpl
 app-text/xmlstarlet
 app-vim/youcompleteme
 dev-db/mariadb
@@ -32,6 +31,7 @@ dev-python/numpy
 dev-python/pandas
 dev-python/pip
 dev-python/pyzmq
+dev-python/rpy
 dev-python/simplejson
 dev-python/sphinx
 dev-python/sympy
@@ -41,6 +41,7 @@ dev-vcs/bzr
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
+net-libs/nodejs
 net-libs/zeromq
 net-misc/openssh
 net-misc/s3cmd
@@ -53,6 +54,7 @@ sci-BIOC/EBImage
 sci-BIOC/GEOquery
 sci-BIOC/OCplus
 sci-BIOC/affy
+sci-BIOC/affyPLM
 sci-BIOC/annaffy
 sci-BIOC/frma
 sci-BIOC/frmaTools
@@ -101,6 +103,7 @@ sci-CRAN/mix
 sci-CRAN/mlr
 sci-CRAN/nlme
 sci-CRAN/nnet
+sci-CRAN/penalizedSVM
 sci-CRAN/plyr
 sci-CRAN/roxygen2
 sci-CRAN/sROC
@@ -144,7 +147,6 @@ virtual/blas
 virtual/blas::science
 virtual/cblas
 virtual/cblas::science
-virtual/jdk
 virtual/lapack
 virtual/lapack::science
 www-servers/tornado

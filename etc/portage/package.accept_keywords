@@ -2,15 +2,15 @@ net-misc/s3cmd **
 */*::R_Overlay **
 */*::science **
 */*::java **
-dev-tcltk/tklib ** #staden
-#dev-haskell/* **
+dev-tcltk/tklib ** # staden
 =dev-python/ipython-1.2.1::sage-on-gentoo[nbconvert] **
-app-text/pandoc **
+=sys-apps/util-linux-9999 ** # ipython
+app-text/pandoc ** # knitr
 dev-db/mongodb **
 dev-python/pymongo **
+net-libs/nodejs **
 #sage- specific below
 dev-java/icedtea-bin **
-#=sys-libs/glibc-9999 **
 # haskell packages for pandoc
 dev-haskell/alex **
 dev-haskell/happy **
