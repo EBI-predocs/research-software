@@ -7,11 +7,10 @@
 
 export EPREFIX=/nfs/research2/saezrodriguez/mike-software
 export PATH=$EPREFIX/usr/bin:$EPREFIX/sbin:$EPREFIX/bin
-export LD_LIBRARY_PATH=$EPREFIX/usr/lib
 
 # LSF setup
-PATH=$PATH:/ebi/lsf/ebi/ppm/9.1/bin:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/bin:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/kerberos/sbin:/usr/kerberos/bin:~/bin
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/lib:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
+export PATH=$PATH:/ebi/lsf/ebi/ppm/9.1/bin:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/bin:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/kerberos/sbin:/usr/kerberos/bin:~/bin
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/lib:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
 export LSF_BINDIR=/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin
 export LSF_ENVDIR=/ebi/lsf/ebi/conf
 export LSF_LIBDIR=/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
@@ -93,7 +92,4 @@ fi
 
 # Try to keep environment pollution down, EPA loves us.
 unset use_color safe_term match_lhs
-
-. $EPREFIX/etc/profile.d/bash-completion.sh
-. ~/.bashrc
 
