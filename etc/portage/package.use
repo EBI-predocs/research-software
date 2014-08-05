@@ -1,4 +1,5 @@
 sys-devel/gcc awt gcj
+dev-db/mariadb extraengine
 sys-libs/zlib minizip
 dev-lang/R tk
 sci-libs/mkl fftw

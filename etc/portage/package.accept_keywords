@@ -1,21 +1,34 @@
-net-misc/s3cmd **
 */*::R_Overlay **
 */*::science **
 */*::java **
+sys-libs/lib-compat ** # libstdc++
+net-misc/s3cmd **
 dev-tcltk/tklib ** # staden
 =dev-python/ipython-1.2.1::sage-on-gentoo[nbconvert] **
 =sys-apps/util-linux-9999 ** # ipython
-app-text/pandoc ** # knitr
 dev-db/mongodb **
 dev-python/pymongo **
 net-libs/nodejs **
-#sage- specific below
+# sage-specific
 dev-java/icedtea-bin **
-# haskell packages for pandoc
-dev-haskell/alex **
-dev-haskell/happy **
-dev-haskell/yaml **
-dev-haskell/texmath **
-dev-haskell/highlighting-kate **
-dev-haskell/pandoc-types **
-
+# haskell packages for pandoc/knitr
+dev-haskell/* **
+app-text/pandoc **
+#dev-haskell/alex **
+#dev-haskell/happy **
+#dev-haskell/yaml **
+#dev-haskell/texmath **
+#dev-haskell/highlighting-kate **
+#dev-haskell/pandoc-types **
+# python for youcompleteme
+dev-python/jedi **
+dev-python/waitress **
+dev-python/futures **
+dev-python/bottle **
+# lyx
+app-office/lyx **
+dev-tex/dvipost **
+app-text/noweb **
+# portage
+=dev-python/ssl-fetch-0.2.1 **
+=dev-python/ndg-httpsclient-0.3.2 **
