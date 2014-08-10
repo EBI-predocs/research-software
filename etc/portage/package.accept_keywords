@@ -1,26 +1,11 @@
 */*::R_Overlay **
 */*::science **
 */*::java **
-sys-libs/lib-compat ** # libstdc++
-net-misc/s3cmd **
-dev-tcltk/tklib ** # staden
-=dev-python/ipython-1.2.1::sage-on-gentoo[nbconvert] **
-=sys-apps/util-linux-9999 ** # ipython
-dev-db/mongodb **
-dev-python/pymongo **
-net-libs/nodejs **
 # sage-specific
 dev-java/icedtea-bin **
 # haskell packages for pandoc/knitr
 dev-haskell/* **
 app-text/pandoc **
-#dev-haskell/alex **
-#dev-haskell/happy **
-#dev-haskell/yaml **
-#dev-haskell/texmath **
-#dev-haskell/highlighting-kate **
-#dev-haskell/pandoc-types **
-# python for youcompleteme
 dev-python/jedi **
 dev-python/waitress **
 dev-python/futures **
@@ -32,3 +17,20 @@ app-text/noweb **
 # portage
 =dev-python/ssl-fetch-0.2.1 **
 =dev-python/ndg-httpsclient-0.3.2 **
+# tools
+dev-python/lockfile **
+app-vim/youcompleteme **
+dev-perl/Statistics-Descriptive **
+net-misc/s3cmd **
+dev-tcltk/tklib ** # staden
+dev-db/mongodb **
+dev-python/pymongo **
+net-libs/nodejs **
+# bio
+sci-biology/amos **
+sci-biology/mummer **
+sci-biology/phyml **
+sci-biology/bamtools **
+sci-biology/bwa **
+sci-biology/tophat **
+sci-biology/meme **

@@ -19,7 +19,6 @@ dev-lang/python
 dev-lang/ruby
 dev-libs/boost
 dev-libs/nspr
-dev-libs/openssl
 dev-python/cython
 dev-python/ipython
 dev-python/jinja
@@ -41,7 +40,6 @@ dev-util/strace
 dev-vcs/bzr
 dev-vcs/git
 dev-vcs/mercurial
-dev-vcs/subversion
 net-libs/nodejs
 net-libs/zeromq
 net-misc/openssh
@@ -119,6 +117,7 @@ sci-BIOC/pd_mogene_1_1_st_v1
 sci-BIOC/pd_mogene_2_0_st
 sci-BIOC/pd_mogene_2_1_st
 sci-BIOC/piano
+sci-BIOC/prada
 sci-BIOC/qvalue
 sci-BIOC/sva
 sci-BIOC/topGO
@@ -141,8 +140,10 @@ sci-CRAN/dplyr
 sci-CRAN/e1071
 sci-CRAN/fail
 sci-CRAN/fastICA
+sci-CRAN/ggplot2
 sci-CRAN/glmnet
 sci-CRAN/gtools
+sci-CRAN/h5r
 sci-CRAN/knitr
 sci-CRAN/lme4
 sci-CRAN/mclust
@@ -153,6 +154,7 @@ sci-CRAN/nlme
 sci-CRAN/nnet
 sci-CRAN/optparse
 sci-CRAN/pROC
+sci-CRAN/parallelMap
 sci-CRAN/penalizedSVM
 sci-CRAN/pheatmap
 sci-CRAN/plyr
@@ -162,6 +164,7 @@ sci-CRAN/sendmailR
 sci-CRAN/stringr
 sci-CRAN/svd
 sci-CRAN/tsne
+sci-biology/amos
 sci-biology/bamtools
 sci-biology/bedtools
 sci-biology/biopython
@@ -175,6 +178,7 @@ sci-biology/pileup
 sci-biology/samtools
 sci-biology/tophat
 sci-libs/blas-reference
+sci-libs/blas-reference::science
 sci-libs/cblas-reference
 sci-libs/gsl
 sci-libs/hdf5
@@ -192,7 +196,6 @@ sys-devel/automake
 sys-devel/clang
 sys-devel/gcc
 sys-devel/llvm
-sys-libs/lib-compat
 sys-libs/libcap
 sys-libs/zlib
 sys-process/htop

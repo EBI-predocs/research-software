@@ -1,2 +1,4 @@
 sci-R/*
 =*/*-*9999*
+net-libs/libpcap # needs root to run
+dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
