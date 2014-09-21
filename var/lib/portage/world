@@ -44,6 +44,8 @@ sci-biology/hmmer
 sci-biology/mrbayes
 sci-biology/phyml
 sci-biology/pileup
+sci-biology/plink
+sci-biology/plink1
 sci-biology/samtools
 sci-biology/tophat
 sci-libs/gsl

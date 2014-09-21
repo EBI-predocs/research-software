@@ -38,6 +38,8 @@ sci-biology/bwa **
 sci-biology/tophat **
 sci-biology/meme **
 sci-biology/plink **
+sci-biology/plink1 **
+sci-biology/cufflinks **
 # ipython
 net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado
