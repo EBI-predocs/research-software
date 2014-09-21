@@ -1,8 +1,6 @@
 =app-text/ghostscript-gpl-9.10-r1[cups]
-=sys-libs/glibc-9999
-=sys-devel/gcc-4.8.2-r1
-=sys-apps/util-linux-9999 #ipython
 dev-python/lockfile
 app-vim/youcompleteme
 sci-R/TH_data
 sci-R/R_methodsS3
+sci-biology/emboss

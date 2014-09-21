@@ -11,7 +11,7 @@ inherit autotools-utils python-single-r1
 
 DESCRIPTION="A fast splice junction mapper for RNA-Seq reads"
 HOMEPAGE="http://tophat.cbcb.umd.edu/"
-SRC_URI="http://tophat.cbcb.umd.edu/downloads/${P}.tar.gz"
+SRC_URI="http://ccb.jhu.edu/software/tophat/downloads/${P}.tar.gz"
 
 LICENSE="Artistic"
 SLOT="0"
@@ -37,7 +37,7 @@ src_configure() {
 		--disable-optim
 		$(use_enable debug)
 	)
-	autotools-utils_src_configure --with-boost=$EPREFIX/usr --with-boost-libdir=$EPREFIX/usr/lib
+	autotools-utils_src_configure
 }
 
 src_install() {

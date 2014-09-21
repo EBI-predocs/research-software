@@ -1,6 +1,7 @@
 */*::R_Overlay **
 */*::science **
 */*::java **
+sys-devel/gcc **
 # sage-specific
 dev-java/icedtea-bin **
 # haskell packages for pandoc/knitr
@@ -27,6 +28,8 @@ dev-db/mongodb **
 dev-python/pymongo **
 net-libs/nodejs **
 # bio
+dev-python/pygraphviz ** # biopython
+dev-libs/jsoncpp ** # bamtools
 sci-biology/amos **
 sci-biology/mummer **
 sci-biology/phyml **
@@ -34,3 +37,7 @@ sci-biology/bamtools **
 sci-biology/bwa **
 sci-biology/tophat **
 sci-biology/meme **
+sci-biology/plink **
+# ipython
+net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
+dev-python/certifi ** # tornado

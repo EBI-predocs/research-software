@@ -1,19 +1,19 @@
 sys-devel/gcc awt gcj
+sys-devel/llvm multitarget # numba
 dev-db/mariadb extraengine
 sys-libs/zlib minizip
 dev-lang/R tk
+sci-libs/scipy sparse
 sci-libs/mkl fftw
 sci-libs/hdf5 -fortran -cxx
 media-gfx/tachyon mpi
 net-dns/avahi -python
 media-libs/gd fontconfig
-#net-print/cups -ssl # doesn't help
-#dev-vcs/subversion -ssl # doesn't help
+dev-python/matplotlib latex
+app-text/texlive-core xetex
 app-text/docbook-xsl-stylesheets -ruby
 dev-lang/ghc ghcbootstrap
-#dev-python/ipython examples matplotlib notebook qt4
-#dev-python/ipython examples matplotlib mongodb nbconvert notebook octave qt4
-dev-python/ipython examples matplotlib nbconvert notebook octave qt4
+dev-python/ipython examples matplotlib nbconvert notebook octave qt4 mongodb
 sci-libs/linbox sage
 sci-mathematics/gmp-ecm -openmp
 sci-mathematics/maxima ecls
