@@ -23,11 +23,11 @@ dev-python/lockfile **
 app-vim/youcompleteme **
 dev-perl/Statistics-Descriptive **
 net-misc/s3cmd **
-dev-tcltk/tklib ** # staden
 dev-db/mongodb **
 dev-python/pymongo **
 net-libs/nodejs **
 # bio
+dev-tcltk/tklib ** # staden
 dev-python/pygraphviz ** # biopython
 dev-libs/jsoncpp ** # bamtools
 sci-biology/amos **
@@ -40,6 +40,7 @@ sci-biology/meme **
 sci-biology/plink **
 sci-biology/plink1 **
 sci-biology/cufflinks **
+sci-biology/bowtie1 **
 # ipython
 net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado

@@ -40,6 +40,7 @@ sci-biology/bamtools
 sci-biology/bedtools
 sci-biology/bowtie
 sci-biology/bwa
+sci-biology/cufflinks
 sci-biology/hmmer
 sci-biology/mrbayes
 sci-biology/phyml
