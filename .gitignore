@@ -1,6 +1,8 @@
 # Ignore everything
-*
+/*
 
 # but not
-# ...
+!/.gitignore
+!/overlay
+!/overlay/*
 
