@@ -19,12 +19,13 @@ IUSE="examples"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-CDEPEND="sys-libs/ncurses"
+CDEPEND="
+	sys-libs/ncurses
+	sci-libs/htslib"
 
 RDEPEND="${CDEPEND}
 	dev-lang/lua
-	dev-lang/perl
-	sci-libs/htslib"
+	dev-lang/perl"
 DEPEND="${CDEPEND}
 	virtual/pkgconfig"
 
