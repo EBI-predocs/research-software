@@ -25,7 +25,6 @@ RDEPEND="${DEPEND}"
 
 src_configure() {
 	local myeconfargs=(
-		--disable-optim
 		--with-boost-libdir="${EPREFIX}/usr/$(get_libdir)/"
 		--with-bam="${EPREFIX}/usr/"
 		$(use_enable debug)
