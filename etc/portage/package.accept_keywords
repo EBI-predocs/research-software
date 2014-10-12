@@ -42,6 +42,7 @@ sci-biology/plink1 **
 sci-biology/cufflinks **
 sci-biology/bowtie1 **
 sci-biology/ncbi-tools++ **
+sci-biology/express **
 # ipython
 net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado

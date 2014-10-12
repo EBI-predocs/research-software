@@ -43,6 +43,7 @@ sci-biology/bowtie
 sci-biology/bowtie1
 sci-biology/bwa
 sci-biology/cufflinks
+sci-biology/express
 sci-biology/hmmer
 sci-biology/mrbayes
 sci-biology/ncbi-tools++
