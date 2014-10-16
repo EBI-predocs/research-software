@@ -3,6 +3,7 @@ app-editors/vim
 app-misc/tmux
 app-portage/gentoolkit
 app-portage/layman
+app-shells/apparix
 app-shells/bash
 app-text/xmlstarlet
 dev-db/mariadb
