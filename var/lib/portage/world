@@ -40,6 +40,7 @@ dev-vcs/subversion
 net-libs/nodejs
 sci-biology/bamtools
 sci-biology/bedtools
+sci-biology/biobambam
 sci-biology/bowtie
 sci-biology/bowtie1
 sci-biology/bwa
@@ -64,6 +65,7 @@ sci-libs/scikits_optimization
 sci-libs/scikits_timeseries
 sci-libs/scipy
 sci-mathematics/octave
+sys-apps/ack
 sys-devel/clang
 sys-devel/gcc
 sys-devel/llvm
