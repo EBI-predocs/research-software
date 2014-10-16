@@ -29,6 +29,7 @@ dev-python/pip
 dev-python/rdflib
 dev-python/rpy
 dev-python/simplejson
+dev-python/snakemake
 dev-python/sphinx
 dev-python/sympy
 dev-python/virtualenv
