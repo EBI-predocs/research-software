@@ -39,6 +39,7 @@ dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
 net-libs/nodejs
+sci-R/peer
 sci-biology/bamtools
 sci-biology/bedtools
 sci-biology/biobambam
@@ -50,6 +51,7 @@ sci-biology/express
 sci-biology/hmmer
 sci-biology/mrbayes
 sci-biology/ncbi-tools++
+sci-biology/peer
 sci-biology/phyml
 sci-biology/pileup
 sci-biology/plink
