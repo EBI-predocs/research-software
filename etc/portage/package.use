@@ -1,24 +1,23 @@
 sys-devel/gcc awt gcj
+sys-devel/llvm multitarget # numba
 dev-db/mariadb extraengine
 sys-libs/zlib minizip
 dev-lang/R tk
+sci-libs/scipy sparse
 sci-libs/mkl fftw
 sci-libs/hdf5 -fortran -cxx
 media-gfx/tachyon mpi
 net-dns/avahi -python
 media-libs/gd fontconfig
-#net-print/cups -ssl # doesn't help
-#dev-vcs/subversion -ssl # doesn't help
+dev-python/matplotlib latex
+app-text/texlive-core xetex
 app-text/docbook-xsl-stylesheets -ruby
 dev-lang/ghc ghcbootstrap
-#dev-python/ipython examples matplotlib notebook qt4
-#dev-python/ipython examples matplotlib mongodb nbconvert notebook octave qt4
-dev-python/ipython examples matplotlib nbconvert notebook octave qt4
+app-editors/vim -perl -ruby
+dev-python/ipython examples matplotlib nbconvert notebook octave qt4 mongodb
 sci-libs/linbox sage
 sci-mathematics/gmp-ecm -openmp
 sci-mathematics/maxima ecls
 sci-mathematics/sage -java
-sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb
-#r-specifics
-sci-CRAN/mlr r_suggests_ada r_suggests_adabag r_suggests_cmaes -r_suggests_dicekriging -r_suggests_diceoptim r_suggests_e1071 r_suggests_earth r_suggests_fnn -r_suggests_fselector r_suggests_gbm r_suggests_irace r_suggests_kernlab r_suggests_kknn r_suggests_klar r_suggests_mboost r_suggests_mda r_suggests_mlbench r_suggests_party r_suggests_penalized r_suggests_pls r_suggests_randomforest r_suggests_reshape r_suggests_robustbase r_suggests_rocr r_suggests_rsm -r_suggests_rweka r_suggests_snowfall r_suggests_testthat
-sci-CRAN/ggplot2 r_suggests_hexbin r_suggests_hmisc r_suggests_mapproj r_suggests_maps r_suggests_maptools r_suggests_multcomp r_suggests_quantreg r_suggests_testthat
+sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb muparser -hdf5
+dev-lang/python tk

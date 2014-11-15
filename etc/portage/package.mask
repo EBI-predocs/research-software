@@ -1,4 +1,5 @@
-sci-R/*
+#sci-R/* # only required with r overlay
 =*/*-*9999*
-net-libs/libpcap # needs root to run
+>=sys-devel/clang-3.4 # llvmpy needs clang=3.3
 dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
+>sci-biology/tophat-2.0.9 # incompatible with new samtools for now

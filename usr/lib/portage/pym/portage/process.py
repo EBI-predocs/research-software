@@ -516,9 +516,15 @@ def _exec(binary, mycommand, opt_name, fd_pipes, env, gid, groups, uid, umask,
 	# Set requested process permissions.
 	if gid:
 		# Cast proxies to int, in case it matters.
-		os.setgid(int(gid))
+		try:
+			os.setgid(int(gid))
+		except:
+			pass
 	if groups:
-		os.setgroups(groups)
+		try:
+			os.setgroups(groups)
+		except:
+			pass
 	if uid:
 		# Cast proxies to int, in case it matters.
 		os.setuid(int(uid))
