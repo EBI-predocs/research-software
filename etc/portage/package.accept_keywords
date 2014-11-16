@@ -48,6 +48,7 @@ sci-biology/biobambam **
 dev-python/snakemake **
 sci-biology/peer **
 sci-R/peer **
+sci-R/modules **
 # ipython
 net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado

@@ -1,5 +1,4 @@
-#sci-R/* # only required with r overlay
 =*/*-*9999*
 >=sys-devel/clang-3.4 # llvmpy needs clang=3.3
+>=sys-devel/llvm-3.4
 dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
->sci-biology/tophat-2.0.9 # incompatible with new samtools for now

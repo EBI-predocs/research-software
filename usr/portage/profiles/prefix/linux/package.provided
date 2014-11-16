@@ -3,4 +3,4 @@
 # $Header: /var/cvsroot/gentoo-x86/profiles/prefix/linux/package.provided,v 1.5 2013/02/03 11:48:34 heroxbd Exp $
 
 sys-linux/glibc-0
-sys-fs/udev-0
+net-print/cups-2.0.0-r2
