@@ -48,6 +48,7 @@ sci-biology/bowtie1
 sci-biology/bwa
 sci-biology/cufflinks
 sci-biology/express
+sci-biology/firehose_get
 sci-biology/hmmer
 sci-biology/mrbayes
 sci-biology/ncbi-tools++
@@ -58,7 +59,6 @@ sci-biology/plink
 sci-biology/plink1
 sci-biology/samtools
 sci-biology/tophat
-sci-chemistry/pymol
 sci-libs/gsl
 sci-libs/lapack-reference::science
 sci-libs/openblas
@@ -76,6 +76,7 @@ sys-libs/libcxx
 sys-process/htop
 sys-process/parallel
 virtual/blas::science
+virtual/cblas
 virtual/cblas::science
 virtual/lapack::science
 x11-apps/xclock
