@@ -20,15 +20,15 @@ IUSE="debug"
 
 DEPEND="
 	dev-libs/boost
-	sci-biology/samtools
-	sci-biology/seqan"
+	"
 RDEPEND="${DEPEND}
 	sci-biology/bowtie"
 
-PATCHES=( "${FILESDIR}"/${P}-flags.patch )
+#PATCHES=( "${FILESDIR}"/${P}-flags.patch )
+AUTOTOOLS_IN_SOURCE_BUILD=1
 
 src_prepare() {
-	rm -rf src/SeqAn* || die
+#	rm -rf src/SeqAn* || die
 	autotools-utils_src_prepare
 }
 
@@ -39,6 +39,12 @@ src_configure() {
 	)
 	autotools-utils_src_configure
 }
+
+#src_compile() {
+#	cd "${WORKDIR}/${P}_build"
+#	find . -name Makefile -exec sed -i "/^BAM_LIB =/s|$| -lhts|" {} \;
+#	emake
+#}
 
 src_install() {
 	autotools-utils_src_install
