@@ -26,6 +26,7 @@ dev-python/numba
 dev-python/numpy
 dev-python/pandas
 dev-python/pip
+dev-python/pycpx
 dev-python/rdflib
 dev-python/rpy
 dev-python/simplejson
@@ -46,8 +47,11 @@ sci-biology/biobambam
 sci-biology/bowtie
 sci-biology/bowtie1
 sci-biology/bwa
+sci-biology/caftools
+sci-biology/cd-hit
 sci-biology/cufflinks
 sci-biology/express
+sci-biology/fastx_toolkit
 sci-biology/firehose_get
 sci-biology/hmmer
 sci-biology/mrbayes
@@ -59,6 +63,7 @@ sci-biology/plink
 sci-biology/plink1
 sci-biology/samtools
 sci-biology/tophat
+sci-libs/fftw
 sci-libs/gsl
 sci-libs/lapack-reference::science
 sci-libs/openblas
@@ -68,6 +73,7 @@ sci-libs/scikits_optimization
 sci-libs/scikits_timeseries
 sci-libs/scipy
 sci-mathematics/octave
+sci-visualization/gnuplot
 sys-apps/ack
 sys-devel/clang
 sys-devel/gcc

@@ -49,11 +49,18 @@ dev-python/snakemake **
 sci-biology/peer **
 sci-R/peer **
 sci-R/modules **
+# fastx_toolkit
+dev-perl/PerlIO-gzip **
+dev-perl/GDGraph **
+dev-perl/GDTextUtil **
 # ipython
 net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado
+dev-qt/qtchooser ** # qt console
 # pymol
 sys-apps/kmod **
 virtual/libudev **
 sys-fs/udev **
 sys-apps/hwids **
+# java test
+sys-libs/glibc **
