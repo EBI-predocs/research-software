@@ -1,4 +1,5 @@
-=*/*-*9999*
+=*/*-*9999* # no dev packages by default
 >=sys-devel/clang-3.4 # llvmpy needs clang=3.3
 >=sys-devel/llvm-3.4
 dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
+>=dev-java/gcj-jdk-4.8.3 # needs to be same version as gcc

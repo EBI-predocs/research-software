@@ -8,6 +8,7 @@ app-shells/bash
 app-text/xmlstarlet
 dev-db/mariadb
 dev-db/mongodb
+dev-java/oracle-jdk-bin
 dev-lang/R
 dev-lang/ghc
 dev-lang/perl

@@ -21,3 +21,5 @@ sci-mathematics/maxima ecls
 sci-mathematics/sage -java
 sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb muparser -hdf5
 dev-lang/python tk
+dev-java/icedtea -nss -webstart -nsplugin -X
+dev-java/gcj-jdk -X

@@ -19,6 +19,7 @@ app-text/noweb **
 =dev-python/ssl-fetch-0.2.1 **
 =dev-python/ndg-httpsclient-0.3.2 **
 # tools
+dev-python/ecdsa ** # bzr
 dev-python/lockfile **
 app-vim/youcompleteme **
 dev-perl/Statistics-Descriptive **
@@ -49,6 +50,7 @@ dev-python/snakemake **
 sci-biology/peer **
 sci-R/peer **
 sci-R/modules **
+dev-python/limix **
 # fastx_toolkit
 dev-perl/PerlIO-gzip **
 dev-perl/GDGraph **
@@ -62,5 +64,27 @@ sys-apps/kmod **
 virtual/libudev **
 sys-fs/udev **
 sys-apps/hwids **
-# java test
-sys-libs/glibc **
+# java
+dev-util/systemtap **
+sys-apps/lsb-release **
+net-print/cups **
+dev-java/gcj-jdk **
+# fastqc
+dev-java/commons-jexl **
+dev-java/jcommander **
+dev-java/cofoja **
+dev-java/snakeyaml **
+dev-java/snappy **
+dev-java/testng **
+dev-java/jflex **
+dev-java/hamcrest-generator **
+dev-java/qdox **
+dev-java/byaccj **
+dev-java/osgi-core-api **
+sci-biology/picard **
+dev-java/hamcrest-core **
+dev-java/aopalliance **
+dev-java/ant-junit4 **
+dev-java/asm **
+java-virtuals/servlet-api **
+dev-java/guice **
