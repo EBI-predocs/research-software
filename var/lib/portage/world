@@ -5,10 +5,12 @@ app-portage/gentoolkit
 app-portage/layman
 app-shells/apparix
 app-shells/bash
+app-text/pdftk
 app-text/xmlstarlet
 dev-db/mariadb
 dev-db/mongodb
 dev-java/oracle-jdk-bin
+dev-java/oracle-jdk-bin:1.7
 dev-lang/R
 dev-lang/ghc
 dev-lang/perl
@@ -52,6 +54,7 @@ sci-biology/caftools
 sci-biology/cd-hit
 sci-biology/cufflinks
 sci-biology/express
+sci-biology/fastqc
 sci-biology/fastx_toolkit
 sci-biology/firehose_get
 sci-biology/hmmer
@@ -59,6 +62,7 @@ sci-biology/mrbayes
 sci-biology/ncbi-tools++
 sci-biology/peer
 sci-biology/phyml
+sci-biology/picard
 sci-biology/pileup
 sci-biology/plink
 sci-biology/plink1
