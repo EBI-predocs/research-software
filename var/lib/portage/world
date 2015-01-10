@@ -1,3 +1,4 @@
+app-admin/haskell-updater
 app-editors/nano
 app-editors/vim
 app-misc/tmux
@@ -68,6 +69,7 @@ sci-biology/plink
 sci-biology/plink1
 sci-biology/samtools
 sci-biology/tophat
+sci-biology/vcftools
 sci-libs/fftw
 sci-libs/gsl
 sci-libs/lapack-reference::science

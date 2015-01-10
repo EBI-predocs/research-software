@@ -1,5 +1,3 @@
 =*/*-*9999* # no dev packages by default
->=sys-devel/clang-3.4 # llvmpy needs clang=3.3
->=sys-devel/llvm-3.4
 dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
 >=dev-java/oracle-jdk-bin-1.8.0.0 # java 8 breaks some packages
