@@ -8,7 +8,7 @@ DESCRIPTION="BROAD's TCGA data portal"
 HOMEPAGE="http://gdac.broadinstitute.org/"
 SRC_URI="http://gdac.broadinstitute.org/runs/code/${PN}-v${PV}.zip"
 
-LICENSE=""
+LICENSE="http://cancergenome.nih.gov/publications/publicationguidelines"
 SLOT="0"
 KEYWORDS="~amd64-linux"
 IUSE=""
