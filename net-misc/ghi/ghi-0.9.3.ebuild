@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-lang/ruby
-		dev-ruby/pygments"
+        dev-ruby/pygments"
 
 src_install() {
 	dobin ghi

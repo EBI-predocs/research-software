@@ -17,7 +17,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-python/pygments
-		dev-ruby/posix-spawn
-		dev-ruby/yajl-ruby"
-
-#ruby_add_bdepend "test? ( dev-ruby/test-unit:2 ) "
+        dev-ruby/posix-spawn
+        dev-ruby/yajl-ruby"
