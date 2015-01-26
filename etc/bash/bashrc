@@ -5,6 +5,10 @@
 # that can't tolerate any output.  So make sure this doesn't display
 # anything or bad things will happen !
 
+if [[ $PATH != *"/nfs/research2/software/prefix/usr/bin"* ]]; then
+    export PATH=/nfs/research2/software/prefix/usr/bin:$PATH
+fi
+
 if ! type bsub >/dev/null 2>&1; then
     export PATH=$PATH:/ebi/lsf/ebi/ppm/9.1/bin:/ebi/lsf/ebi/ppm/9.1/linux2.6-glibc2.3-x86_64/bin:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc:/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/kerberos/sbin:/usr/kerberos/bin:~/bin
     export LSF_BINDIR=/ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/bin
