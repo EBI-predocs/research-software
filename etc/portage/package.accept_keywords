@@ -3,6 +3,7 @@
 */*::java **
 sys-devel/gcc **
 net-misc/googlecl **
+dev-ruby/ghi **
 # sage-specific
 dev-java/icedtea-bin **
 # haskell packages for pandoc/knitr

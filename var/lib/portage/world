@@ -42,6 +42,7 @@ dev-ruby/ghi
 dev-util/pkgconfig
 dev-vcs/bzr
 dev-vcs/git
+dev-vcs/git-annex
 dev-vcs/mercurial
 dev-vcs/subversion
 net-libs/nodejs
