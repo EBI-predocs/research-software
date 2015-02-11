@@ -1,6 +1,6 @@
-sys-devel/gcc awt gcj
 sys-devel/llvm multitarget # numba
 dev-db/mariadb extraengine
+sys-devel/gcc gcj # pdftk
 sys-libs/zlib minizip
 dev-lang/R tk
 sci-libs/scipy sparse
@@ -12,14 +12,9 @@ media-libs/gd fontconfig
 dev-python/matplotlib latex
 app-text/texlive-core xetex
 app-text/docbook-xsl-stylesheets -ruby
-dev-lang/ghc ghcbootstrap
+dev-lang/ghc ghcbootstrap # otherwise binary install w/ newer glibc
 app-editors/vim -perl -ruby
 dev-python/ipython examples matplotlib nbconvert notebook octave qt4 mongodb
-sci-libs/linbox sage
-sci-mathematics/gmp-ecm -openmp
 sci-mathematics/maxima ecls
-sci-mathematics/sage -java
 sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb muparser -hdf5
 dev-lang/python tk
-dev-java/icedtea -nss -webstart -nsplugin -X
-dev-java/gcj-jdk -X

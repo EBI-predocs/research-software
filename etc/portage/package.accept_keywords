@@ -3,7 +3,7 @@
 */*::java **
 sys-devel/gcc **
 net-misc/googlecl **
-dev-ruby/ghi **
+net-misc/ghi **
 # sage-specific
 dev-java/icedtea-bin **
 # haskell packages for pandoc/knitr
@@ -66,6 +66,7 @@ dev-perl/GDTextUtil **
 net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado
 dev-qt/qtchooser ** # qt console
+net-libs/http-parser ** # +nodejs
 # pymol
 sys-apps/kmod **
 virtual/libudev **
