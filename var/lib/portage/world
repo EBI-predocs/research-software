@@ -6,6 +6,7 @@ app-portage/gentoolkit
 app-portage/layman
 app-shells/apparix
 app-shells/bash
+app-shells/fish
 app-text/pdftk
 app-text/xmlstarlet
 dev-db/mariadb
