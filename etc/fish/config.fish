@@ -8,10 +8,10 @@
 
 if status --is-login
 
-    set LSF_BINDIR /ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64
-    set LSF_ENVDIR /ebi/lsf/ebi/conf
-    set LSF_LIBDIR /ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
-    set LSF_SERVERDIR /ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc
+    set -x LSF_BINDIR /ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64
+    set -x LSF_ENVDIR /ebi/lsf/ebi/conf
+    set -x LSF_LIBDIR /ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/lib
+    set -x LSF_SERVERDIR /ebi/lsf/ebi/9.1/linux2.6-glibc2.3-x86_64/etc
 
 	#
 	# Set some value for LANG if nothing was set before, and this is a
