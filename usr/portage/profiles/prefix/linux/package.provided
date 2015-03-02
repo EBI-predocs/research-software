@@ -1,8 +1,0 @@
-# Copyright 1999-2011 Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/prefix/linux/package.provided,v 1.5 2013/02/03 11:48:34 heroxbd Exp $
-
-sys-linux/glibc-0
-net-print/cups-2.0.0
-sys-libs/glibc-2.20
-dev-java/icedtea-bin-7.2.5.3
