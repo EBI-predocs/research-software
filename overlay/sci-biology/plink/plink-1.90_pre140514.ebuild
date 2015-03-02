@@ -48,7 +48,7 @@ src_compile() {
 		CXX=$(tc-getCXX) \
 		CFLAGS="${CFLAGS}" \
 		ZLIB="$($(tc-getPKG_CONFIG) --libs zlib)" \
-		BLASFLAGS="$(usex lapack "$($(tc-getPKG_CONFIG) --cflags --libs lapack)" "")"
+		BLASFLAGS="$(usex lapack "$($(tc-getPKG_CONFIG) --cflags --libs cblas) $($(tc-getPKG_CONFIG) --cflags --libs lapack)" "")"
 }
 
 src_install() {

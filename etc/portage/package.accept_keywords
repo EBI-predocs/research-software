@@ -4,6 +4,8 @@
 sys-devel/gcc **
 net-misc/googlecl **
 net-misc/ghi **
+app-vim/vim-r **
+dev-db/sqlite **
 # sage-specific
 dev-java/icedtea-bin **
 # haskell packages for pandoc/knitr

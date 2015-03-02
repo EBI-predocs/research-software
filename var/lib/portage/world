@@ -7,6 +7,7 @@ app-portage/layman
 app-shells/apparix
 app-shells/bash
 app-shells/fish
+app-text/pandoc
 app-text/pdftk
 app-text/xmlstarlet
 dev-db/mariadb
@@ -98,3 +99,4 @@ virtual/cblas
 virtual/cblas::science
 virtual/lapack::science
 x11-apps/xclock
+x11-misc/xclip
