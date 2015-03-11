@@ -52,6 +52,7 @@ sci-biology/cufflinks **
 sci-biology/bowtie1 **
 sci-biology/ncbi-tools++ **
 sci-biology/express **
+sci-biology/pysam **
 sci-libs/libmaus **
 sci-biology/biobambam **
 dev-python/snakemake **
@@ -60,6 +61,9 @@ sci-R/peer **
 sci-R/modules **
 dev-python/limix **
 sci-biology/vcftools **
+# biopieces
+dev-perl/SVG **
+dev-perl/Bit-Vector **
 # fastx_toolkit
 dev-perl/PerlIO-gzip **
 dev-perl/GDGraph **
