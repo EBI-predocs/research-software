@@ -61,6 +61,7 @@ sci-R/peer **
 sci-R/modules **
 dev-python/limix **
 sci-biology/vcftools **
+sci-biology/metaseq **
 # biopieces
 dev-perl/SVG **
 dev-perl/Bit-Vector **

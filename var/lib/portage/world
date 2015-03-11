@@ -12,6 +12,7 @@ app-text/pandoc
 app-text/pdftk
 app-text/xmlstarlet
 app-vim/fakeclip
+app-vim/youcompleteme
 dev-db/mariadb
 dev-db/mongodb
 dev-java/oracle-jdk-bin
@@ -70,6 +71,7 @@ sci-biology/fastqc
 sci-biology/fastx_toolkit
 sci-biology/firehose_get
 sci-biology/hmmer
+sci-biology/metaseq
 sci-biology/mrbayes
 sci-biology/ncbi-tools++
 sci-biology/peer
