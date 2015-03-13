@@ -1,9 +1,11 @@
 app-admin/haskell-updater
 app-editors/nano
 app-editors/vim
+app-misc/colordiff
 app-misc/tmux
 app-portage/gentoolkit
 app-portage/layman
+app-portage/repo-commit
 app-shells/apparix
 app-shells/bash
 app-shells/bash-completion
@@ -15,6 +17,7 @@ app-vim/fakeclip
 app-vim/youcompleteme
 dev-db/mariadb
 dev-db/mongodb
+dev-java/maven-bin
 dev-java/oracle-jdk-bin
 dev-java/oracle-jdk-bin:1.7
 dev-lang/R
@@ -70,6 +73,7 @@ sci-biology/express
 sci-biology/fastqc
 sci-biology/fastx_toolkit
 sci-biology/firehose_get
+sci-biology/gatk
 sci-biology/hmmer
 sci-biology/metaseq
 sci-biology/mrbayes

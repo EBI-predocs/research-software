@@ -6,6 +6,7 @@ net-misc/googlecl **
 net-misc/ghi **
 app-vim/vim-r **
 dev-db/sqlite **
+app-portage/repo-commit **
 # sage-specific
 dev-java/icedtea-bin **
 # haskell packages for pandoc/knitr
@@ -40,6 +41,7 @@ dev-tcltk/tklib ** # staden
 dev-python/pygraphviz ** # biopython
 dev-libs/jsoncpp ** # bamtools
 sci-biology/amos **
+sci-biology/gatk **
 sci-biology/mummer **
 sci-biology/phyml **
 sci-biology/bamtools **
@@ -51,7 +53,6 @@ sci-biology/plink1 **
 sci-biology/cufflinks **
 sci-biology/bowtie1 **
 sci-biology/ncbi-tools++ **
-sci-biology/express **
 sci-biology/pysam **
 sci-libs/libmaus **
 sci-biology/biobambam **
@@ -62,6 +63,10 @@ sci-R/modules **
 dev-python/limix **
 sci-biology/vcftools **
 sci-biology/metaseq **
+# express
+sci-biology/express **
+dev-python/python-gflags **
+dev-python/google-apputils **
 # biopieces
 dev-perl/SVG **
 dev-perl/Bit-Vector **
