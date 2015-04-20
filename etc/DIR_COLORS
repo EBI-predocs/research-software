@@ -218,7 +218,7 @@ EXEC 01;32
 #.txt 00;32
 .patch 00;32
 .diff 00;32
-.log 00;32
+#.log 00;32
 .tex 00;32
 .doc 00;32
 
@@ -245,6 +245,8 @@ EXEC 01;32
 # bioinf specific
 *Makefile 00;36
 *setup.py 00;36
+*configure 00;36
+.cmake 00;36
 .r 01;33
 .R 01;33
 .py 01;33
@@ -253,6 +255,16 @@ EXEC 01;32
 .pyo 01;30
 .*~ 01;30
 .DS_Store 01;30
+.backup 01;30
+.log 01;30
 .fasta 01;35
 .fa 01;35
 .fastq 01;35
+.wig 01;35
+.bigwig 01;35
+.sam 01;35
+.bam 01;35
+.bed 01;35
+.gff 01;35
+.gtf 01;35
+.maf 01;35

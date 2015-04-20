@@ -7,8 +7,7 @@ net-misc/ghi **
 app-vim/vim-r **
 dev-db/sqlite **
 app-portage/repo-commit **
-# sage-specific
-dev-java/icedtea-bin **
+virtual/perl-XSLoader ** # gnu parallel
 # haskell packages for pandoc/knitr
 dev-haskell/* **
 app-text/pandoc **
@@ -28,10 +27,15 @@ dev-python/ecdsa ** # bzr
 dev-python/lockfile **
 app-vim/youcompleteme **
 dev-perl/Statistics-Descriptive **
-net-misc/s3cmd **
-dev-db/mongodb **
 dev-python/pymongo **
 net-libs/nodejs **
+# s3cmd
+net-misc/s3cmd **
+dev-python/python-magic **
+# mongodb
+dev-db/mongodb **
+dev-lang/go **
+app-admin/mongo-tools **
 # numba
 dev-python/llvmlite **
 dev-python/enum34 **
@@ -62,7 +66,12 @@ sci-R/peer **
 sci-R/modules **
 dev-python/limix **
 sci-biology/vcftools **
+# metaseq
 sci-biology/metaseq **
+sci-biology/gffutils **
+sci-biology/pybedtools **
+sci-biology/pyfaidx **
+sci-biology/bx-python **
 # express
 sci-biology/express **
 dev-python/python-gflags **
@@ -97,9 +106,23 @@ dev-java/qdox **
 dev-java/byaccj **
 dev-java/osgi-core-api **
 sci-biology/picard **
+dev-java/cglib ** # picard
 dev-java/hamcrest-core **
 dev-java/aopalliance **
 dev-java/ant-junit4 **
 dev-java/asm **
 java-virtuals/servlet-api **
 dev-java/guice **
+# ruby
+dev-ruby/test-unit **
+dev-ruby/power_assert **
+# maven
+dev-java/glassfish-interceptor-api **
+dev-java/javax-inject **
+dev-java/jsr250 **
+dev-java/juel **
+dev-java/jsoup **
+java-virtuals/interceptor-api **
+dev-java/log4j **
+sys-apps/baselayout-java **
+dev-java/avalon-framework **

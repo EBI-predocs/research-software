@@ -17,7 +17,6 @@ app-vim/fakeclip
 app-vim/youcompleteme
 dev-db/mariadb
 dev-db/mongodb
-dev-java/maven-bin
 dev-java/oracle-jdk-bin
 dev-java/oracle-jdk-bin:1.7
 dev-lang/R
@@ -31,6 +30,7 @@ dev-python/bottleneck
 dev-python/cython
 dev-python/h5py
 dev-python/ipython
+dev-python/lockfile
 dev-python/lxml
 dev-python/matplotlib
 dev-python/networkx
@@ -87,7 +87,6 @@ sci-biology/plink1
 sci-biology/pysam
 sci-biology/samtools
 sci-biology/tophat
-sci-biology/vcftools
 sci-libs/armadillo
 sci-libs/blas-reference
 sci-libs/fftw

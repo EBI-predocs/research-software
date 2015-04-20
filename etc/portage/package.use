@@ -18,3 +18,4 @@ dev-python/ipython examples matplotlib nbconvert notebook octave qt4 mongodb
 sci-mathematics/maxima ecls
 sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb muparser -hdf5
 dev-lang/python tk
+sys-apps/file -python # python-magic [s3cmd]
