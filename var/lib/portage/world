@@ -40,6 +40,7 @@ dev-python/numpy
 dev-python/pandas
 dev-python/pip
 dev-python/pycpx
+dev-python/python-igraph
 dev-python/rdflib
 dev-python/rpy
 dev-python/simplejson
@@ -86,6 +87,7 @@ sci-biology/plink
 sci-biology/plink1
 sci-biology/pysam
 sci-biology/samtools
+sci-biology/seqan
 sci-biology/tophat
 sci-libs/armadillo
 sci-libs/blas-reference

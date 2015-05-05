@@ -66,6 +66,10 @@ sci-R/peer **
 sci-R/modules **
 dev-python/limix **
 sci-biology/vcftools **
+dev-libs/igraph **
+#rpy
+virtual/python-singledispatch **
+dev-python/singledispatch **
 # metaseq
 sci-biology/metaseq **
 sci-biology/gffutils **
