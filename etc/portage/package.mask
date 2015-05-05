@@ -2,3 +2,4 @@
 dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
 >=dev-java/oracle-jdk-bin-1.8.0.0 # java 8 breaks some packages
 >dev-libs/libevent-2.0.22 # breaks tmux
+>=dev-lang/R-3.2.0 # breaks bioc:org.Hs.eg.db
