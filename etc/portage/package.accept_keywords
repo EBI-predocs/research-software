@@ -41,6 +41,10 @@ dev-python/llvmlite **
 dev-python/enum34 **
 dev-python/numba **
 # bio
+sci-biology/kallisto **
+sci-biology/salmon **
+sci-libs/kent **
+sci-biology/WiggleTools **
 dev-tcltk/tklib ** # staden
 dev-python/pygraphviz ** # biopython
 dev-libs/jsoncpp ** # bamtools

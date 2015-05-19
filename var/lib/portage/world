@@ -76,6 +76,7 @@ sci-biology/fastx_toolkit
 sci-biology/firehose_get
 sci-biology/gatk
 sci-biology/hmmer
+sci-biology/kallisto
 sci-biology/metaseq
 sci-biology/mrbayes
 sci-biology/ncbi-tools++
@@ -86,6 +87,7 @@ sci-biology/pileup
 sci-biology/plink
 sci-biology/plink1
 sci-biology/pysam
+sci-biology/salmon
 sci-biology/samtools
 sci-biology/seqan
 sci-biology/tophat
