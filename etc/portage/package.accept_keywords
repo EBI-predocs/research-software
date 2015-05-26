@@ -96,11 +96,17 @@ net-libs/czmq ** # r kernel (it actually needs cppzmq, this is wrong)
 dev-python/certifi ** # tornado
 dev-qt/qtchooser ** # qt console
 net-libs/http-parser ** # +nodejs
+dev-python/characteristic **
+dev-python/pyasn1-modules **
+dev-python/service_identity **
+dev-python/asyncio **
 # pymol
 sys-apps/kmod **
 virtual/libudev **
 sys-fs/udev **
 sys-apps/hwids **
+# java
+app-eselect/eselect-java **
 # fastqc
 dev-java/commons-jexl **
 dev-java/jcommander **
