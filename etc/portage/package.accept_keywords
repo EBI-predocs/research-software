@@ -44,6 +44,7 @@ dev-python/numba **
 sci-biology/kallisto **
 sci-biology/salmon **
 sci-libs/kent **
+sci-biology/paradigm **
 sci-biology/WiggleTools **
 dev-tcltk/tklib ** # staden
 dev-python/pygraphviz ** # biopython
