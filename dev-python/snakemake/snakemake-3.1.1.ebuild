@@ -10,7 +10,7 @@ inherit distutils-r1
 
 DESCRIPTION="Make-like task language"
 HOMEPAGE="https://bitbucket.org/johanneskoester/snakemake/wiki/Home"
-SRC_URI="https://pypi.python.org/packages/source/s/snakemake/${P}.tar.gz"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
