@@ -30,12 +30,12 @@ dev-python/bottleneck
 dev-python/cython
 dev-python/h5py
 dev-python/ipython
+dev-python/ipython-cluster-helper
 dev-python/lockfile
 dev-python/lxml
 dev-python/matplotlib
 dev-python/networkx
 dev-python/nose
-dev-python/numba
 dev-python/numpy
 dev-python/pandas
 dev-python/pip
@@ -80,6 +80,7 @@ sci-biology/kallisto
 sci-biology/metaseq
 sci-biology/mrbayes
 sci-biology/ncbi-tools++
+sci-biology/paradigm
 sci-biology/peer
 sci-biology/phyml
 sci-biology/picard
@@ -91,6 +92,7 @@ sci-biology/salmon
 sci-biology/samtools
 sci-biology/seqan
 sci-biology/tophat
+sci-chemistry/pymol
 sci-libs/armadillo
 sci-libs/blas-reference
 sci-libs/fftw

@@ -8,3 +8,5 @@ sci-biology/emboss
 >=sys-apps/hwids-20140304[udev]
 sys-apps/hwids #-20140304[udev]
 #=sys-apps/hwids-99999999
+# required by paradigm (argument)
+=sci-biology/paradigm-9999
