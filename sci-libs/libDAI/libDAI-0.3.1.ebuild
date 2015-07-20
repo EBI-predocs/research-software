@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64-linux"
 IUSE=""
 
-DEPEND="sci-libs/gmp
+DEPEND="dev-libs/gmp
 	dev-libs/boost"
 RDEPEND="${DEPEND}"
 
