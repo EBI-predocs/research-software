@@ -19,3 +19,4 @@ sci-mathematics/maxima ecls
 sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb muparser -hdf5
 dev-lang/python tk
 sys-apps/file -python # python-magic [s3cmd]
+sci-visualization/gnuplot -cairo # >=dev-libs/glib-2.44:2 not avail
