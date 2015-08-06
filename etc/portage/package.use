@@ -2,7 +2,7 @@ sys-devel/llvm multitarget # numba
 dev-db/mariadb extraengine
 sys-devel/gcc gcj # pdftk
 sys-libs/zlib minizip
-dev-lang/R tk
+dev-lang/R tk profile
 sci-libs/scipy sparse
 sci-libs/mkl fftw
 sci-libs/hdf5 -fortran -cxx
@@ -19,4 +19,3 @@ sci-mathematics/maxima ecls
 sci-biology/ncbi-tools++ boost sqlite3 xslt -berkdb muparser -hdf5
 dev-lang/python tk
 sys-apps/file -python # python-magic [s3cmd]
-sci-visualization/gnuplot -cairo # >=dev-libs/glib-2.44:2 not avail
