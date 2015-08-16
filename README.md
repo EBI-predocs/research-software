@@ -4,12 +4,12 @@ Gentoo Prefix
 User guide
 ----------
 
-Setup instructions are available in the [config repository](https://github.com/EBI-predocs/config#setting-up-your-environment). In general, software should work out of the box.
+To use the software in this repository, change your shell to `/nfs/research2/software/prefix/bash` or add `/nfs/research2/software/prefix/usr/bin` to your `$PATH`. Detailed setup instructions are available in the [config repository](https://github.com/EBI-predocs/config#setting-up-your-environment). In general, software should work out of the box.
 
 For a list of what is installed see the [world file](var/lib/portage/world).
 
-If you have problems (or you would like something installed) open it as an issue and I'll
-see what I can do.
+If you have problems (or you would like something installed) open it as an issue and we'll
+see what we can do.
 
 Admin guide
 -----------
@@ -18,16 +18,18 @@ Admin guide
 
  * etc
    * bash
-     * [bashrc](etc/bash/bashrc)
+     * [bashrc](etc/bash/bashrc) - default bashrc, LSF setup
    * portage
-     * [make.conf](etc/portage/make.profile/make.conf) - global USE flags, make flags
-     * [package.provided](usr/portage/profiles/prefix/linux/amd64/package.provided) - packages provided by host system
+     * [make.conf](etc/portage/make.conf) - global USE flags, make flags
+     * [package.provided](usr/portage/profiles/prefix/linux/package.provided) - packages provided by host system
      * [package.unmask](etc/portage/package.unmask) - whitelisted masked packages
      * [package.use](etc/portage/package.use) - package-specific USE flags
      * [package.accept_keywords](etc/portage/package.accept_keywords) - unstable keywords for otherwise stable system
    * vim
      * [vimrc.local](etc/vim/vimrc.local) - default vim config
  * usr
+   * portage/profiles/prefix/linux
+     * [package.provided](usr/portage/profiles/prefix/linux/package.provided) - list of packages provided by the host system
    * share/vim/vim74/colors
      * [wombat.vim](usr/share/vim/vim74/colors/wombat.vim),
        [wombat256.vim](usr/share/vim/vim74/colors/wombat256.vim) - wombat color scheme
@@ -118,9 +120,3 @@ Use `openblas` from the `science` overlay.
     eselect cblas set openblas-threads # R has problems with openblas-int64-threads
     eselect blas set openblas-threads
     eselect lapack set reference
-
-### Links
-
-    ln -s /usr/bin/crontab $EPREFIX/usr/bin/crontab
-    ln -s /usr/bin/finger $EPREFIX/usr/bin/finger
-

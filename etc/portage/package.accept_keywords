@@ -1,6 +1,7 @@
 */*::R_Overlay **
 */*::science **
 */*::java **
+dev-libs/glib ~ # test
 sys-devel/gcc **
 net-misc/googlecl **
 net-misc/ghi **

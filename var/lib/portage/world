@@ -25,6 +25,7 @@ dev-lang/perl
 dev-lang/python
 dev-lang/ruby
 dev-libs/boost
+dev-libs/jsoncpp
 dev-python/beautifulsoup
 dev-python/bottleneck
 dev-python/cython
@@ -70,7 +71,6 @@ sci-biology/bowtie1
 sci-biology/bwa
 sci-biology/caftools
 sci-biology/cd-hit
-sci-biology/cufflinks
 sci-biology/express
 sci-biology/fastqc
 sci-biology/fastx_toolkit

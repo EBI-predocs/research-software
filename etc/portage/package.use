@@ -1,5 +1,5 @@
 sys-devel/llvm multitarget # numba
-dev-db/mariadb extraengine
+dev-db/mariadb extraengine client-libs
 sys-devel/gcc gcj # pdftk
 sys-libs/zlib minizip
 dev-lang/R tk profile
