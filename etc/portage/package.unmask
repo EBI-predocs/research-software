@@ -1,12 +1,10 @@
 =app-text/ghostscript-gpl-9.10-r1[cups]
 dev-python/lockfile
 app-vim/youcompleteme
-#sci-R/TH_data
-#sci-R/R_methodsS3
 sci-biology/emboss
 #sys-apps/hwids # udev -> pymol
 >=sys-apps/hwids-20140304[udev]
 sys-apps/hwids #-20140304[udev]
-#=sys-apps/hwids-99999999
-# required by paradigm (argument)
 =sci-biology/paradigm-9999
+=sci-libs/symengine-9999 # until releases version works
+=dev-python/html5lib-0.999999

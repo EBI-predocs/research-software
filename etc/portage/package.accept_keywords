@@ -1,7 +1,7 @@
 */*::R_Overlay **
 */*::science **
 */*::java **
-dev-libs/glib ~ # test
+=sys-libs/binutils-libs-2.25.1-r1 ** # gnuplot
 sys-devel/gcc **
 net-misc/googlecl **
 net-misc/ghi **
@@ -9,6 +9,9 @@ app-vim/vim-r **
 dev-db/sqlite **
 app-portage/repo-commit **
 virtual/perl-XSLoader ** # gnu parallel
+# sphinx
+dev-python/alabaster **
+dev-python/snowballstemmer **
 # haskell packages for pandoc/knitr
 dev-haskell/* **
 app-text/pandoc **
@@ -16,26 +19,40 @@ dev-python/jedi **
 dev-python/waitress **
 dev-python/futures **
 dev-python/bottle **
+# mercurial
+app-misc/c_rehash **
 # lyx
 app-office/lyx **
 dev-tex/dvipost **
 app-text/noweb **
+# genome-music
+dev-perl/Statistics-Distributions **
+dev-perl/Devel-GlobalDestruction **
+dev-perl/App-cpanminus **
+dev-perl/List-MoreUtils **
+virtual/perl-File-Path **
+dev-perl/Exporter-Tiny **
+dev-perl/Lingua-EN-Inflect **
 # portage
 =dev-python/ssl-fetch-0.2.1 **
 =dev-python/ndg-httpsclient-0.3.2 **
 # tools
 dev-python/ecdsa ** # bzr
-dev-python/lockfile **
 app-vim/youcompleteme **
 dev-perl/Statistics-Descriptive **
 dev-python/pymongo **
 net-libs/nodejs **
+# pip
+dev-python/lockfile **
+dev-python/retrying **
+dev-python/CacheControl **
 # s3cmd
 net-misc/s3cmd **
 dev-python/python-magic **
 # mongodb
 dev-db/mongodb **
 dev-lang/go **
+dev-lang/go-bootstrap **
 app-admin/mongo-tools **
 # numba
 dev-python/llvmlite **
@@ -102,6 +119,8 @@ dev-python/characteristic **
 dev-python/pyasn1-modules **
 dev-python/service_identity **
 dev-python/asyncio **
+dev-python/rfc3986 **
+dev-python/vcversioner **
 # pymol
 sys-apps/kmod **
 virtual/libudev **
