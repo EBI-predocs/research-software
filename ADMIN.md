@@ -1,7 +1,15 @@
 Gentoo Prefix - Admin guide
 ===========================
 
-### Config files
+The research software repository is powered by [Gentoo Prefix](https://wiki.gentoo.org/wiki/Project:Prefix),
+which is essentially a full Gentoo distribution that is installed a directory of the host system.
+
+This has the advantage that it does not require root privileges and can install newer software on
+an existing system without having to worry about backwards compatibility because it is installed
+on top of the host system.
+
+Config files
+------------
 
  * etc
    * bash
@@ -27,7 +35,17 @@ Gentoo Prefix - Admin guide
      * portage
        * [world](var/lib/portage/world) - list of all explicitly installed packages
 
-### Using emerge
+Using portage
+-------------
+
+[Portage](https://wiki.gentoo.org/wiki/Portage) is Gentoo's package manager
+that will install and update packages, keep track of dependencies, and remove packages
+that are no longer needed.
+
+The command-line tool is called emerge, and you can install packages by typing
+`emerge <package name>`.
+
+### Command-line arguments
 
 Install a package with custom use flags (preferred:
         [package.use](etc/portage/package.use) file):
