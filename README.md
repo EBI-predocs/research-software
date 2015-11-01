@@ -1,12 +1,39 @@
 User guide
 ==========
 
-To use the software in this repository, change your shell to `/nfs/research2/software/prefix/bash` or add `/nfs/research2/software/prefix/usr/bin` to your `$PATH`. Detailed setup instructions are available in the [config repository](https://github.com/EBI-predocs/config#setting-up-your-environment). In general, software should work out of the box.
+Setting up your environment
+---------------------------
 
-For a list of what is installed see the [world file](var/lib/portage/world).
+### Using a pre-configured environment (preferred)
 
-If you have problems (or you would like something installed) open it as an issue and we'll
+To just use the environment as it is set up, [change your shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_my_shell%3F) to
+
+```bash
+/nfs/research2/software/prefix/bin/bash
+```
+
+You can now use all the software listed in the [*world* file](var/lib/portage/world).
+
+### Setting up paths in the bashrc (alternative)
+
+Alternatively, you can add the path to your cluster `~/.bashrc`.
+
+```bash
+export PATH=/nfs/research2/software/prefix/usr/bin:$PATH
+```
+
+### Requesting software
+
+If you have problems (or you would like something installed) [open it as an issue](issues/new) and we'll
 see what we can do.
+
+For software to be installed in the general directory it should be useful to more than one person.
+
+Managing your own software
+--------------------------
+
+Install your own software in `/nfs/research2/<your_group>/<your_user>/`, not in your `$HOME` directory.
+The reason for that is that your home space is limited to 10 Gb and `research2` is generally faster.
 
 ### Python packages
 
@@ -39,3 +66,12 @@ menu.graphics = FALSE,
 repos = structure(c(CRAN="http://mirrors.ebi.ac.uk/CRAN/"))
 )
 ```
+
+### Linuxbrew
+
+Many will know [Homebrew](http://brew.sh/) for OS-X. In short, it is a package manager
+that does not require admin right. There is also [Linuxbrew](http://brew.sh/linuxbrew/),
+that uses the same platform to install software in a Linux environment.
+
+If you need something that is not in the general software directory, using this instead
+of installing by hand will save you a lot of trouble.
