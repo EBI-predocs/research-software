@@ -16,7 +16,8 @@ You can now use all the software listed in the [*world* file](var/lib/portage/wo
 
 ### Setting up paths in the bashrc (alternative)
 
-Alternatively, you can add the path to your cluster `~/.bashrc`. **Do not** set your `LD_LIBRARY_PATH` there.
+Alternatively, you can add the path to your cluster `~/.bashrc`. **Do not** set your `LD_LIBRARY_PATH` there -
+we are using [`RPATH`](https://en.wikipedia.org/wiki/Rpath) to resolve library locations, so we don't need it.
 
 ```bash
 export PATH=/nfs/research2/software/prefix/usr/bin:$PATH
