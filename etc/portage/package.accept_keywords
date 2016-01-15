@@ -1,7 +1,8 @@
 */*::R_Overlay **
 */*::science **
 */*::java **
-=sys-libs/binutils-libs-2.25.1-r1 ** # gnuplot
+#=sys-libs/binutils-libs-2.25.1-r1 ** # gnuplot
+sys-libs/glibc **
 sys-devel/gcc **
 net-misc/googlecl **
 net-misc/ghi **
@@ -9,6 +10,8 @@ app-vim/vim-r **
 dev-db/sqlite **
 app-portage/repo-commit **
 virtual/perl-XSLoader ** # gnu parallel
+dev-libs/libgit2 ** # julia
+dev-libs/libbsd ** # python-certifi
 # sphinx
 dev-python/alabaster **
 dev-python/snowballstemmer **
@@ -121,6 +124,10 @@ dev-python/service_identity **
 dev-python/asyncio **
 dev-python/rfc3986 **
 dev-python/vcversioner **
+virtual/python-greenlet **
+virtual/python-futures **
+virtual/python-asyncio **
+virtual/python-backports_abc **
 # pymol
 sys-apps/kmod **
 virtual/libudev **

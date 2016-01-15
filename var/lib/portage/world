@@ -3,6 +3,7 @@ app-editors/nano
 app-editors/vim
 app-misc/colordiff
 app-misc/tmux
+app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
 app-portage/repo-commit
@@ -12,6 +13,7 @@ app-shells/bash-completion
 app-shells/fish
 app-text/pandoc
 app-text/pdftk
+app-text/texlive-core
 app-text/xmlstarlet
 app-vim/fakeclip
 app-vim/youcompleteme
@@ -25,13 +27,13 @@ dev-lang/perl
 dev-lang/python
 dev-lang/ruby
 dev-libs/boost
+dev-libs/openssl
 dev-python/beautifulsoup
 dev-python/bottleneck
 dev-python/cython
 dev-python/h5py
 dev-python/ipython
 dev-python/ipython-cluster-helper
-dev-python/lockfile
 dev-python/lxml
 dev-python/matplotlib
 dev-python/networkx
@@ -47,8 +49,10 @@ dev-python/rpy
 dev-python/simplejson
 dev-python/snakemake
 dev-python/sphinx
+dev-python/symengine
 dev-python/sympy
 dev-python/virtualenv
+dev-util/google-perftools
 dev-util/pkgconfig
 dev-vcs/bzr
 dev-vcs/git
@@ -61,6 +65,7 @@ net-misc/ghi
 net-misc/s3cmd
 sci-R/peer
 sci-biology/HTSeq
+sci-biology/WiggleTools
 sci-biology/bamtools
 sci-biology/bedtools
 sci-biology/biobambam
@@ -89,7 +94,6 @@ sci-biology/pileup
 sci-biology/plink
 sci-biology/plink1
 sci-biology/pysam
-sci-biology/salmon
 sci-biology/samtools
 sci-biology/seqan
 sci-biology/tophat
@@ -110,6 +114,7 @@ sci-libs/symengine
 sci-mathematics/octave
 sci-visualization/gnuplot
 sys-apps/ack
+sys-devel/binutils
 sys-devel/clang
 sys-devel/gcc
 sys-devel/llvm

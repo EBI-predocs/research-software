@@ -527,7 +527,10 @@ def _exec(binary, mycommand, opt_name, fd_pipes, env, gid, groups, uid, umask,
 			pass
 	if uid:
 		# Cast proxies to int, in case it matters.
-		os.setuid(int(uid))
+		try:
+			os.setuid(int(uid))
+		except:
+			pass
 	if umask:
 		os.umask(umask)
 	if pre_exec:

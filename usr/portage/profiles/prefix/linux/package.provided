@@ -4,3 +4,5 @@
 
 sys-linux/glibc-0
 sys-fs/udev-224
+sys-devel/binutils-config-5
+sys-libs/glibc-2.22-r1
