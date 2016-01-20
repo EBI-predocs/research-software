@@ -3,4 +3,4 @@ dev-libs/nss # messes up job submussion NSSRAW_* when LD_LIB is set
 >dev-libs/libevent-2.0.22 # breaks tmux=1.9a
 >=sys-devel/llvm-3.7
 >=sys-devel/clang-3.7
->=sys-libs/glibc-2.22
+sys-libs/glibc
