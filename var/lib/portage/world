@@ -25,6 +25,7 @@ dev-lang/R
 dev-lang/ghc
 dev-lang/perl
 dev-lang/python
+dev-lang/python:3.3
 dev-lang/ruby
 dev-libs/boost
 dev-libs/openssl
@@ -94,6 +95,7 @@ sci-biology/pileup
 sci-biology/plink
 sci-biology/plink1
 sci-biology/pysam
+sci-biology/salmon
 sci-biology/samtools
 sci-biology/seqan
 sci-biology/tophat

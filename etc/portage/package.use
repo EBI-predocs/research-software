@@ -1,6 +1,7 @@
+#sys-apps/portage python3 # maybe this takes care of try..except?
 sys-devel/llvm multitarget # numba
 dev-db/mariadb extraengine client-libs
-sys-devel/gcc gcj # pdftk
+sys-devel/gcc fortran openmp # [gcj]pdftk, octave [needed?]
 sys-libs/zlib minizip
 dev-lang/R tk profile
 sci-libs/scipy sparse

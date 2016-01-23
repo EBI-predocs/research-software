@@ -7,5 +7,5 @@ sci-biology/emboss
 sys-apps/hwids #-20140304[udev]
 =sci-biology/paradigm-9999
 =sci-libs/symengine-9999 # until releases version works
-=dev-python/html5lib-0.999999
 =dev-python/symengine-9999 # until there is a python wrapper release
+dev-python/html5lib # pip

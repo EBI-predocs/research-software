@@ -1,7 +1,7 @@
 */*::R_Overlay **
 */*::science **
 */*::java **
-#=sys-libs/binutils-libs-2.25.1-r1 ** # gnuplot
+=sys-libs/binutils-libs-2.25.1-r2 **
 sys-libs/glibc **
 sys-devel/gcc **
 net-misc/googlecl **
