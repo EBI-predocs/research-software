@@ -70,6 +70,7 @@ sci-biology/WiggleTools
 sci-biology/bamtools
 sci-biology/bedtools
 sci-biology/biobambam
+sci-biology/bioperl
 sci-biology/biopython
 sci-biology/bowtie
 sci-biology/bowtie1
