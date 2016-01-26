@@ -78,6 +78,10 @@ sci-biology/bwa
 sci-biology/caftools
 sci-biology/cd-hit
 sci-biology/cufflinks
+sci-biology/ensembl
+sci-biology/ensembl-compara
+sci-biology/ensembl-funcgen
+sci-biology/ensembl-io
 sci-biology/express
 sci-biology/fastqc
 sci-biology/fastx_toolkit

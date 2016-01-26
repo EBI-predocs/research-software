@@ -9,3 +9,9 @@ sys-apps/hwids #-20140304[udev]
 =sci-libs/symengine-9999 # until releases version works
 =dev-python/symengine-9999 # until there is a python wrapper release
 dev-python/html5lib # pip
+# required by ensembl (argument)
+=sci-biology/ensembl-9999
+=sci-biology/ensembl-funcgen-9999
+=sci-biology/ensembl-compara-9999
+=sci-biology/ensembl-io-9999
+=sci-biology/ensembl-variation-9999
