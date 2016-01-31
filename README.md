@@ -68,11 +68,14 @@ repos = structure(c(CRAN="http://mirrors.ebi.ac.uk/CRAN/"))
 )
 ```
 
-### Linuxbrew
+### General Package Managers
 
-Many will know [Homebrew](http://brew.sh/) for OS-X. In short, it is a package manager
-that does not require admin right. There is also [Linuxbrew](http://brew.sh/linuxbrew/),
-that uses the same platform to install software in a Linux environment.
+If you need something that is not in the general software directory, using a package manager instead
+of installing by hand will save you a lot of trouble in the longer run. There are some options,
+the best ones of which are:
 
-If you need something that is not in the general software directory, using this instead
-of installing by hand will save you a lot of trouble.
+**Linuxbrew.** Many will know [Homebrew](http://brew.sh/) for OS-X. In short, it is a package manager
+that does not require admin right. There is also [Linuxbrew](http://linuxbrew.sh/),
+that uses the same platform to install software in a Linux environment. List of packages [here](http://braumeister.org/).
+
+**Bioconda.** A package manager that started out a part of [Continuum Analytic's Python distrubtion (Anacoda)](https://anaconda.org/), but later developed to support other software as well. There is a [list of packages](https://anaconda.org/bioconda/packages) available in the [bio channel](https://anaconda.org/bioconda).
