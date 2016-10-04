@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+
+# but not
+!/.gitignore
+!/overlay
+!/overlay/*
+
+# but yes
+*.swp
+
