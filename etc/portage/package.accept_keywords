@@ -1,0 +1,1347 @@
+sci-biology/* **
+=dev-haskell/http-4000.2.22 ** # pandoc[network-uri]
+=sys-libs/libseccomp-2.3.1 **
+# required by numba (argument)
+=dev-python/numba-0.26.0 **
+# required by dev-python/numba-0.26.0::gentoo_prefix
+# required by numba (argument)
+=dev-python/llvmlite-0.12.1 **
+# required by dev-python/paramiko-1.16.0::gentoo_prefix
+# required by dev-vcs/bzr-2.6.0::gentoo_prefix[sftp]
+# required by bzr (argument)
+=dev-python/ecdsa-0.13 **
+# required by mongodb (argument)
+=dev-db/mongodb-3.2.5 **
+# required by dev-db/mongodb-3.2.5::gentoo_prefix[tools]
+# required by mongodb (argument)
+=app-admin/mongo-tools-3.2.5 **
+# required by app-admin/mongo-tools-3.2.5::gentoo_prefix
+# required by dev-db/mongodb-3.2.5::gentoo_prefix[tools]
+# required by mongodb (argument)
+=dev-lang/go-9999 **
+# required by ncbi-tools++ (argument)
+=sci-biology/ncbi-tools++-12.0.0 **
+# required by pysam (argument)
+=sci-biology/pysam-0.9.0 **
+# required by plink1 (argument)
+=sci-biology/plink1-1.07-r1 **
+# required by plink (argument)
+=sci-biology/plink-1.90_pre140514 **
+# required by sci-biology/tophat-2.1.1::gentoo_prefix
+# required by tophat (argument)
+=sci-biology/bowtie-2.2.9 **
+# required by tophat (argument)
+=sci-biology/tophat-2.1.1 **
+# required by dev-java/cofoja-1.2::gentoo_prefix
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/asm-5.1 **
+# required by pileup (argument)
+=sci-biology/pileup-0.6 **
+# required by fastqc (argument)
+=sci-biology/fastqc-0.11.3 **
+# required by sci-biology/pybedtools-0.6.9::science
+# required by sci-biology/metaseq-0.5.3::science
+# required by metaseq (argument)
+=sci-biology/bedtools-2.22.1 **
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/htsjdk-2.5.1 **
+# required by dev-java/commons-compress-1.10::gentoo_prefix
+# required by dev-java/htsjdk-2.5.1::science
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/xz-java-1.5 **
+# required by dev-java/snappy-1.1.0.1::gentoo_prefix
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/osgi-core-api-5.0.0-r1 **
+# required by sci-biology/picard (argument)
+=sci-biology/picard-2.2.2 **
+# required by virtual/jdk-1.8.0-r3::gentoo_prefix
+# required by dev-java/junit-3.8.2-r1::gentoo_prefix
+# required by dev-java/javacc-5.0-r2::gentoo_prefix
+# required by dev-java/commons-jexl-2.1.1::gentoo_prefix
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/icedtea-bin-3.0.1 **
+# required by dev-java/icedtea-bin-3.0.1::gentoo_prefix[webstart,-nsplugin]
+# required by virtual/jdk-1.8.0-r3::gentoo_prefix
+# required by dev-java/junit-3.8.2-r1::gentoo_prefix
+# required by dev-java/javacc-5.0-r2::gentoo_prefix
+# required by dev-java/commons-jexl-2.1.1::gentoo_prefix
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/icedtea-web-1.6.2 **
+# required by dev-java/icedtea-bin-3.0.1::gentoo_prefix
+# required by virtual/jdk-1.8.0-r3::gentoo_prefix
+# required by dev-java/junit-3.8.2-r1::gentoo_prefix
+# required by dev-java/javacc-5.0-r2::gentoo_prefix
+# required by dev-java/commons-jexl-2.1.1::gentoo_prefix
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=sys-libs/glibc-9999 **
+# required by gatk (argument)
+=sci-biology/gatk-9999 **
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/snappy-1.1.0.1 **
+# required by sci-biology/express-1.5.1::gentoo_prefix
+# required by express (argument)
+=sci-biology/bamtools-9999 **
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/commons-jexl-2.1.1 **
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/cofoja-1.2 **
+# required by express (argument)
+=sci-biology/express-1.5.1 **
+# required by phyml (argument)
+=sci-biology/phyml-2.4.5-r2 **
+# required by sci-biology/bamtools-9999::science
+# required by sci-biology/express-1.5.1::gentoo_prefix
+# required by express (argument)
+=dev-libs/jsoncpp-0.10.6 **
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=sci-libs/jhdf5-14.12.1 **
+# required by dev-java/htsjdk-2.5.1::science
+# required by sci-biology/picard-2.2.2::science
+# required by sci-biology/fastqc-0.11.3::science
+# required by fastqc (argument)
+=dev-java/commons-compress-1.10 **
+# required by cufflinks (argument)
+=sci-biology/cufflinks-2.2.1-r2 **
+# required by =app-admin/eselect-9999 (argument)
+=app-admin/eselect-9999 **
+# required by =net-misc/openssh-7.2_p2-r1 (argument)
+=net-misc/openssh-7.2_p2-r1 **
+# required by =dev-lang/python-3.5.2 (argument)
+=dev-lang/python-3.5.2 **
+# required by sci-biology/bioperl-network-9999-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[network]
+# required by sci-biology/bioperl-db-9999-r1::gentoo_prefix
+=dev-perl/Graph-0.970.400 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[minimal]
+# required by sci-biology/bioperl-db-9999-r1::gentoo_prefix
+=dev-perl/Data-Stag-0.140.0-r1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Convert-Binary-C-0.780.0 **
+# required by dev-perl/SVG-Graph-0.20.0-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Math-Derivative-0.40.0 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Math-Random-0.720.0 **
+# required by dev-perl/Ace-1.920.0-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Cache-Cache-1.80.0 **
+# required by dev-perl/Cache-Cache-1.80.0::gentoo_prefix
+# required by dev-perl/Ace-1.920.0-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/IPC-ShareLite-0.170.0-r1 **
+# required by dev-perl/Moo-2.0.2::gentoo_prefix
+# required by dev-perl/Array-Compare-2.110.0::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Devel-GlobalDestruction-0.130.0-r1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by @selected
+# required by @world (argument)
+=dev-perl/Bio-ASN1-EntrezGene-1.700.0 **
+# required by dev-perl/Array-Compare-2.110.0::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Type-Tiny-1.0.5 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/SVG-Graph-0.20.0-r1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/SVG-2.640.0 **
+# required by dev-perl/SVG-Graph-0.20.0-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Statistics-Descriptive-3.61.200 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Ace-1.920.0-r1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/PostScript-0.60.0-r1 **
+# required by dev-perl/XML-DOM-XPath-0.140.0-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/XML-XPathEngine-0.140.0-r1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/XML-Writer-0.625 **
+# required by dev-perl/Moo-2.0.2::gentoo_prefix
+# required by dev-perl/Array-Compare-2.110.0::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Role-Tiny-2.0.1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Spreadsheet-WriteExcel-2.400.0 **
+# required by dev-perl/SVG-Graph-0.20.0-r1::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Math-Spline-0.20.0 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/XML-DOM-XPath-0.140.0-r1 **
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Algorithm-Munkres-0.80.0-r1 **
+# required by dev-perl/Array-Compare-2.110.0::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Moo-2.0.2 **
+# required by dev-perl/Moo-2.0.2::gentoo_prefix
+# required by dev-perl/Array-Compare-2.110.0::gentoo_prefix
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[-minimal]
+# required by dev-perl/Bio-ASN1-EntrezGene-1.700.0::gentoo_prefix
+=dev-perl/Class-Method-Modifiers-2.120.0 **
+# required by sci-biology/biopython-1.67-r1::science
+# required by biopython (argument)
+=dev-python/pygraphviz-1.3.1 **
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/pem-0.2.2 **
+# required by dev-haskell/tls-1.3.4::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/x509-1.6.3 **
+# required by dev-haskell/filemanip-0.3.6.3::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/unix-compat-0.4.1.4 **
+# required by dev-haskell/aeson-0.9.0.1::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/scientific-0.3.4.6 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/xml-1.3.14 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/deepseq-generics-0.1.1.2 **
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/socks-0.5.5 **
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/asn1-encoding-0.9.3 **
+# required by dev-haskell/old-time-1.1.0.3-r1::gentoo_prefix
+# required by dev-haskell/zip-archive-0.2.3.7::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/old-locale-1.0.0.7 **
+# required by dev-haskell/conduit-1.2.6.6::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/resourcet-1.1.7.4 **
+# required by dev-haskell/tls-1.3.4::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/x509-validation-1.6.3 **
+# required by dev-haskell/x509-1.6.3::gentoo_prefix
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/asn1-parse-0.9.4 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/zip-archive-0.2.3.7 **
+# required by dev-python/traitlets-9999::science
+# required by dev-python/jupyter_core-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/ipython_genutils-9999 **
+# required by dev-haskell/pem-0.2.2::gentoo_prefix
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/base64-bytestring-1.0.0.1 **
+# required by dev-haskell/conduit-1.2.6.6::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/mmorph-1.0.6 **
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/widgetsnbextension-1.2.6 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/texmath-0.8.6.3 **
+# required by dev-haskell/tls-1.3.4::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/cryptonite-0.8 **
+# required by dev-haskell/http-client-0.4.28::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/mime-types-0.1.0.7 **
+# required by jupyter (argument)
+=dev-python/jupyter-1.0.0 **
+# required by dev-haskell/temporary-1.2.0.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/exceptions-0.8.2.1 **
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/notebook-9999 **
+# required by dev-haskell/http-client-0.4.28::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/blaze-builder-0.4.0.2 **
+# required by dev-haskell/enclosed-exceptions-1.0.1.1::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/async-2.0.2 **
+# required by dev-python/entrypoints-0.2.1::gentoo_prefix[python_targets_python2_7]
+# required by dev-python/nbconvert-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/configparser-3.5.0 **
+# required by dev-python/twisted-core-15.2.1::gentoo_prefix[crypt]
+# required by dev-python/twisted-web-15.2.1::gentoo_prefix
+# required by www-servers/tornado-4.3::gentoo_prefix[python_targets_python2_7]
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/service_identity-16.0.0 **
+# required by dev-haskell/http-client-0.4.28::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/case-insensitive-1.2.0.5 **
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/jupyter_console-9999 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/blaze-html-0.8.1.1 **
+# required by dev-haskell/x509-validation-1.6.3::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/byteable-0.1.1 **
+# required by dev-python/jsonschema-2.5.1-r2::gentoo_prefix
+# required by dev-python/nbformat-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/rfc3986-0.3.1 **
+# required by dev-haskell/highlighting-kate-0.6.2::gentoo_prefix[-pcre-light]
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/regex-pcre-builtin-0.94.4.8.8.35 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/zlib-0.5.4.2 **
+# required by dev-python/jupyter_core-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/traitlets-9999 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/pandoc-types-1.12.4.7 **
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/enclosed-exceptions-1.0.1.1 **
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/connection-0.2.5 **
+# required by dev-haskell/http-client-0.4.28::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/streaming-commons-0.1.15.4 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/cmark-0.4.0.1 **
+# required by dev-haskell/semigroups-0.16.2.2::gentoo_prefix[hashable]
+# required by dev-haskell/void-0.7.1::gentoo_prefix
+# required by dev-haskell/conduit-1.2.6.6::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/hashable-1.2.4.0 **
+# required by dev-haskell/semigroups-0.16.2.2::gentoo_prefix
+# required by dev-haskell/void-0.7.1::gentoo_prefix
+# required by dev-haskell/conduit-1.2.6.6::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/nats-1 **
+# required by pandoc (argument)
+=app-text/pandoc-1.15.0.6 **
+# required by dev-haskell/cryptonite-0.8::gentoo_prefix
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/memory-0.10 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/http-types-0.8.6 **
+# required by dev-haskell/conduit-1.2.6.6::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/void-0.7.1 **
+# required by dev-haskell/aeson-0.9.0.1::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/unordered-containers-0.2.7.0 **
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/conduit-1.2.6.6 **
+# required by dev-haskell/aeson-0.9.0.1::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/attoparsec-0.13.0.2 **
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/x509-system-1.6.3 **
+# required by dev-python/qtconsole-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/jupyter_client-9999 **
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/jupyter_core-9999 **
+# required by dev-python/nbconvert-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/entrypoints-0.2.1 **
+# required by dev-haskell/zip-archive-0.2.3.7::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/old-time-1.1.0.3-r1 **
+# required by dev-python/qtconsole-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/ipykernel-9999 **
+# required by dev-haskell/monad-control-1.0.1.0::gentoo_prefix
+# required by dev-haskell/lifted-base-0.2.3.6-r2::gentoo_prefix
+# required by dev-haskell/enclosed-exceptions-1.0.1.1::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/transformers-compat-0.4.0.4 **
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/nbconvert-9999 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/aeson-0.9.0.1 **
+# required by dev-haskell/tls-1.3.4::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/cereal-0.4.1.1 **
+# required by dev-haskell/zip-archive-0.2.3.7::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/digest-0.0.1.2 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/temporary-1.2.0.4 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/tagsoup-0.13.10 **
+# required by dev-haskell/x509-1.6.3::gentoo_prefix
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/asn1-types-0.3.2 **
+# required by dev-python/jsonschema-2.5.1-r2::gentoo_prefix
+# required by dev-python/nbformat-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/vcversioner-2.16.0.0 **
+# required by dev-haskell/asn1-encoding-0.9.3::gentoo_prefix
+# required by dev-haskell/x509-store-1.6.1::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/hourglass-0.2.9 **
+# required by dev-haskell/x509-system-1.6.3::gentoo_prefix
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/x509-store-1.6.1 **
+# required by dev-python/service_identity-16.0.0::gentoo_prefix
+# required by dev-python/twisted-core-15.2.1::gentoo_prefix[crypt]
+# required by dev-python/twisted-web-15.2.1::gentoo_prefix
+# required by www-servers/tornado-4.3::gentoo_prefix[python_targets_python2_7]
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/pyasn1-modules-0.0.8 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/juicypixels-3.2.7 **
+# required by dev-python/nbconvert-9999::science
+# required by dev-python/notebook-9999::science
+# required by dev-python/widgetsnbextension-1.2.6::gentoo_prefix
+# required by dev-python/ipywidgets-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/nbformat-9999 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/hslua-0.3.13 **
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/http-client-0.4.28 **
+# required by dev-haskell/void-0.7.1::gentoo_prefix
+# required by dev-haskell/conduit-1.2.6.6::gentoo_prefix
+# required by dev-haskell/yaml-0.8.17.1::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/semigroups-0.16.2.2 **
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/qtconsole-9999 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/yaml-0.8.17.1 **
+# required by dev-haskell/blaze-html-0.8.1.1::gentoo_prefix
+# required by dev-haskell/highlighting-kate-0.6.2::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/blaze-markup-0.7.0.3 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/http-client-tls-0.2.4 **
+# required by dev-haskell/connection-0.2.5::gentoo_prefix
+# required by dev-haskell/http-client-tls-0.2.4::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/tls-1.3.4 **
+# required by dev-haskell/http-client-0.4.28::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/cookie-0.4.2 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/filemanip-0.3.6.3 **
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/ipywidgets-9999 **
+# required by dev-haskell/streaming-commons-0.1.15.4::gentoo_prefix
+# required by dev-haskell/http-client-0.4.28::gentoo_prefix
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix[https]
+# required by pandoc (argument)
+=dev-haskell/bytestring-builder-0.10.6.0.0 **
+# required by app-text/pandoc-1.15.0.6::gentoo_prefix
+# required by pandoc (argument)
+=dev-haskell/highlighting-kate-0.6.2 **
+# required by www-servers/tornado-4.3::gentoo_prefix[-python_targets_python3_4,-python_targets_python3_3,python_targets_python3_5]
+# required by dev-python/notebook-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=virtual/python-asyncio-0 **
+# required by www-servers/tornado-4.3::gentoo_prefix
+# required by dev-python/notebook-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=virtual/python-singledispatch-0 **
+# required by virtual/python-singledispatch-0::gentoo_prefix[python_targets_python2_7,-python_targets_python3_3,-python_targets_pypy]
+# required by www-servers/tornado-4.3::gentoo_prefix
+# required by dev-python/notebook-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/singledispatch-3.4.0.3-r1 **
+# required by www-servers/tornado-4.3::gentoo_prefix
+# required by dev-python/notebook-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=virtual/python-futures-0 **
+# required by www-servers/tornado-4.3::gentoo_prefix
+# required by dev-python/notebook-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=virtual/python-backports_abc-0 **
+# required by virtual/python-futures-0::gentoo_prefix[python_targets_python2_7,-python_targets_pypy]
+# required by www-servers/tornado-4.3::gentoo_prefix
+# required by dev-python/notebook-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=dev-python/futures-3.0.5 **
+# required by dev-python/gevent-1.1.1::gentoo_prefix
+# required by dev-python/pyzmq-15.2.0::gentoo_prefix
+# required by dev-python/ipython-3.2.1-r1::gentoo_prefix[smp,-qt4,-notebook]
+# required by dev-python/qtconsole-9999::science
+# required by dev-python/jupyter-1.0.0::gentoo_prefix
+# required by jupyter (argument)
+=virtual/python-greenlet-1.0 **
+# required by =dev-haskell/http-4000.2.22 (argument)
+=dev-haskell/http-4000.2.22 **
+# required by =dev-python/ipython-4.2.0-r1 (argument)
+=dev-python/ipython-4.2.0-r1 **
+# required by dev-python/ipython-4.2.0-r1::overlay[smp]
+# required by =dev-python/ipython-4.2.0-r1 (argument)
+=dev-python/ipyparallel-9999 **
+# required by dev-python/ipython-4.2.0-r1::overlay
+# required by dev-python/ipyparallel-9999::science
+=dev-python/pickleshare-9999 **
+# required by sci-biology/bioperl-run-9999-r1::gentoo_prefix[-minimal]
+# required by sci-biology/bioperl-9999-r1::gentoo_prefix[run]
+# required by @selected
+# required by @world (argument)
+=dev-perl/IPC-Run-0.940.0 **
+# required by sci-biology/fastx_toolkit-0.0.14::science
+# required by fastx_toolkit (argument)
+=dev-perl/PerlIO-gzip-0.190.0 **
+# required by sci-biology/fastx_toolkit-0.0.14::science
+# required by fastx_toolkit (argument)
+=dev-perl/GDGraph-1.520.0 **
+# required by dev-perl/GDGraph-1.520.0::gentoo_prefix
+# required by sci-biology/fastx_toolkit-0.0.14::science
+# required by fastx_toolkit (argument)
+=dev-perl/GDTextUtil-0.860.0-r1 **
+# required by app-vim/youcompleteme-99999999::gentoo_prefix
+# required by youcompleteme (argument)
+=dev-python/bottle-0.12.9 **
+# required by youcompleteme (argument)
+=app-vim/youcompleteme-99999999 **
+# required by app-vim/youcompleteme-99999999::gentoo_prefix
+# required by youcompleteme (argument)
+=dev-python/waitress-0.8.10-r1 **
+# required by app-vim/youcompleteme-99999999::gentoo_prefix
+# required by youcompleteme (argument)
+=dev-python/jedi-0.9.0 **
+# required by mongodb (argument)
+=dev-db/mongodb-3.2.8 **
+# required by dev-db/mongodb-3.2.8::gentoo_prefix[tools]
+# required by mongodb (argument)
+=app-admin/mongo-tools-3.2.8 **
+# required by dev-java/antlr-4.5.1::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/treelayout-1.0.2 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/aopalliance-1.0-r2 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/javax-inject-1-r2 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/juel-2.1.0-r2 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=java-virtuals/servlet-api-2.4 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/avalon-framework-4.1.5-r2 **
+# required by dev-java/avalon-logkit-2.1-r8::gentoo_prefix
+# required by dev-java/avalon-framework-4.1.5-r2::gentoo_prefix
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=java-virtuals/servlet-api-3.0-r1 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/jsr250-1.0-r1 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=java-virtuals/interceptor-api-0 **
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/jsoup-1.8.3 **
+# required by java-virtuals/interceptor-api-0::gentoo_prefix
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/glassfish-interceptor-api-3.1 **
+# required by dev-java/avalon-logkit-2.1-r8::gentoo_prefix
+# required by dev-java/avalon-framework-4.1.5-r2::gentoo_prefix
+# required by dev-java/maven-bin-3.2.5::gentoo_prefix
+# required by sci-biology/SnpEff-4.2::science
+# required by sci-biology/gatk-9999::science
+# required by sci-biology/gatk (argument)
+=dev-java/log4j-1.2.17-r3 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[assistant]
+# required by git-annex (argument)
+=dev-haskell/hinotify-0.3.8.1 **
+# required by dev-haskell/feed-0.3.11.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/time-locale-compat-0.1.1.1 **
+# required by dev-haskell/aeson-pretty-0.7.2::gentoo_prefix[-lib-only]
+# required by dev-haskell/http2-1.3.1::gentoo_prefix
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/cmdargs-0.10.14 **
+# required by dev-haskell/cipher-aes-0.2.11::gentoo_prefix
+# required by dev-haskell/cprng-aes-0.6.1::gentoo_prefix
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/crypto-cipher-types-0.0.9 **
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/lens-4.11 **
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/gnuidn-0.2.2 **
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/gsasl-0.3.6 **
+# required by dev-haskell/cprng-aes-0.6.1::gentoo_prefix
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/cipher-aes-0.2.11 **
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/http2-1.3.1 **
+# required by dev-haskell/persistent-template-2.1.3.4::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/persistent-2.1.6 **
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-core-1.4.20.2 **
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/mime-mail-0.4.11 **
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/skein-1.0.9.4 **
+# required by dev-haskell/aws-0.12.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/xml-conduit-1.3.4.2 **
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-auth-1.4.13.2 **
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/path-pieces-0.2.1 **
+# required by dev-haskell/yesod-form-1.4.7.1::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/xss-sanitize-0.3.5.7 **
+# required by dev-haskell/monad-logger-0.3.18::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/stm-chans-3.0.0.4 **
+# required by dev-haskell/aws-0.12.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/http-conduit-2.1.10.1 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[assistant]
+# required by git-annex (argument)
+=dev-haskell/dns-2.0.2 **
+# required by dev-haskell/semigroupoids-5.0.0.4::gentoo_prefix
+# required by dev-haskell/free-4.12.4::gentoo_prefix
+# required by dev-haskell/either-4.4.1.1::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/base-orphans-0.3.2 **
+# required by dev-haskell/aws-0.12.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/base16-bytestring-0.1.1.6 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/disk-free-space-0.1.0.1 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/profunctors-5.1.2 **
+# required by dev-haskell/language-c-0.4.7::gentoo_prefix
+# required by dev-haskell/c2hs-0.27.1::gentoo_prefix
+# required by dev-haskell/gnuidn-0.2.2::gentoo_prefix
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/alex-3.1.7 **
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/cryptohash-conduit-0.1.1 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/network-protocol-xmpp-0.4.8 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[magicmime]
+# required by git-annex (argument)
+=dev-haskell/magic-1.1 **
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/monads-tf-0.1.0.2-r1 **
+# required by dev-haskell/http2-1.3.1::gentoo_prefix
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/psqueues-0.2.2.1 **
+# required by dev-haskell/c2hs-0.27.1::gentoo_prefix
+# required by dev-haskell/gnuidn-0.2.2::gentoo_prefix
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/language-c-0.4.7 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[dbus]
+# required by git-annex (argument)
+=dev-haskell/fdo-notify-0.3.1 **
+# required by dev-haskell/iproute-1.5.0::gentoo_prefix
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/appar-0.1.4 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/reflection-1.5.2.1 **
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-persistent-1.4.0.5 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/kan-extensions-4.2.3 **
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/wai-extra-3.0.15.1 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-1.4.3 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[assistant]
+# required by git-annex (argument)
+=dev-haskell/mountpoints-1.0.2 **
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/monad-logger-0.3.18 **
+# required by dev-haskell/yesod-persistent-1.4.0.5::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/resource-pool-0.2.3.2 **
+# required by dev-haskell/aws-0.12.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/safe-0.3.9 **
+# required by dev-haskell/contravariant-1.3.3::gentoo_prefix[statevar]
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/statevar-1.1.0.4 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/gnutls-0.2 **
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/email-validate-2.0.1 **
+# required by dev-haskell/cipher-aes-0.2.11::gentoo_prefix
+# required by dev-haskell/cprng-aes-0.6.1::gentoo_prefix
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/securemem-0.1.9 **
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-form-1.4.7.1 **
+# required by dev-haskell/dns-2.0.2::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[assistant]
+# required by git-annex (argument)
+=dev-haskell/iproute-1.5.0 **
+# required by dev-haskell/gnuidn-0.2.2::gentoo_prefix
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/c2hs-0.27.1 **
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/either-4.4.1.1 **
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/word8-0.1.2 **
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/mwc-random-0.13.4.0 **
+# required by dev-haskell/uuid-1.3.12::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/uuid-types-1.0.3 **
+# required by dev-haskell/semigroupoids-5.0.0.4::gentoo_prefix[contravariant]
+# required by dev-haskell/free-4.12.4::gentoo_prefix
+# required by dev-haskell/either-4.4.1.1::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/contravariant-1.3.3 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/dav-1.0.7 **
+# required by dev-haskell/kan-extensions-4.2.3::gentoo_prefix
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/adjunctions-4.2.2 **
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/authenticate-1.3.3.1 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/esqueleto-2.1.3 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-static-1.5.0.3 **
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/wai-app-static-3.1.4.1 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[torrentparser]
+# required by git-annex (argument)
+=dev-haskell/torrent-10000.0.0 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/comonad-4.2.7.2 **
+# required by dev-haskell/wai-app-static-3.1.4.1::gentoo_prefix
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/http-date-0.0.6.1 **
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/libxml-sax-0.7.5 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/parallel-3.2.1.0 **
+# required by dev-haskell/cprng-aes-0.6.1::gentoo_prefix
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/crypto-random-0.0.9 **
+# required by dev-haskell/warp-tls-3.1.5::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/cprng-aes-0.6.1 **
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/css-text-0.1.2.1 **
+# required by dev-haskell/wai-extra-3.0.15.1::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/stringsearch-0.3.6.6 **
+# required by dev-haskell/language-c-0.4.7::gentoo_prefix
+# required by dev-haskell/c2hs-0.27.1::gentoo_prefix
+# required by dev-haskell/gnuidn-0.2.2::gentoo_prefix
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/happy-1.19.5 **
+# required by dev-haskell/monad-logger-0.3.18::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/monad-loops-0.4.3 **
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/auto-update-0.1.4 **
+# required by dev-haskell/uuid-1.3.12::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/network-info-0.2.0.8 **
+# required by dev-haskell/torrent-10000.0.0::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[torrentparser]
+# required by git-annex (argument)
+=dev-haskell/bencode-0.6.0.0 **
+# required by dev-haskell/network-protocol-xmpp-0.4.8::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[xmpp]
+# required by git-annex (argument)
+=dev-haskell/xml-types-0.3.6 **
+# required by dev-haskell/concurrent-output-1.7.6::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[concurrentoutput]
+# required by git-annex (argument)
+=dev-haskell/terminal-size-0.3.2.1 **
+# required by dev-haskell/free-4.12.4::gentoo_prefix
+# required by dev-haskell/either-4.4.1.1::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/prelude-extras-0.4.0.3 **
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/hjsmin-0.1.5.1 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/feed-0.3.11.1 **
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/xml-hamlet-0.4.0.11 **
+# required by dev-haskell/wai-extra-3.0.15.1::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/fast-logger-2.4.6 **
+# required by dev-haskell/fast-logger-2.4.6::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/easy-file-0.2.1 **
+# required by dev-haskell/yesod-persistent-1.4.0.5::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/persistent-template-2.1.3.4 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/yesod-default-1.2.0 **
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/simple-sendfile-0.2.21 **
+# required by dev-haskell/quickcheck-2.8.2::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/tf-random-0.5 **
+# required by dev-haskell/wai-extra-3.0.15.1::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/wai-logger-2.2.7 **
+# required by dev-haskell/http2-1.3.1::gentoo_prefix
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/aeson-pretty-0.7.2 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/sandi-0.3.6 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/optparse-applicative-0.11.0.2 **
+# required by dev-haskell/either-4.4.1.1::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/free-4.12.4 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/bifunctors-5 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/regex-tdfa-1.2.2 **
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/entropy-0.3.7 **
+# required by dev-haskell/http2-1.3.1::gentoo_prefix
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/hex-0.1.2 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[concurrentoutput]
+# required by git-annex (argument)
+=dev-haskell/concurrent-output-1.7.6 **
+# required by dev-haskell/optparse-applicative-0.11.0.2::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/ansi-wl-pprint-0.6.7.3 **
+# required by dev-haskell/either-4.4.1.1::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/monadrandom-0.4.2.3 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[pairing]
+# required by git-annex (argument)
+=dev-haskell/network-multicast-0.1.0 **
+# required by dev-haskell/iproute-1.5.0::gentoo_prefix
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/byteorder-1.0.4 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/persistent-sqlite-2.1.4.2 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/warp-tls-3.1.5 **
+# required by dev-haskell/profunctors-5.1.2::gentoo_prefix
+# required by dev-haskell/free-4.12.4::gentoo_prefix
+# required by dev-haskell/either-4.4.1.1::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/distributive-0.4.4 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/aws-0.12.1 **
+# required by dev-haskell/authenticate-1.3.3.1::gentoo_prefix
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/tagstream-conduit-0.5.5.3 **
+# required by dev-haskell/lens-4.11::gentoo_prefix
+# required by dev-haskell/dav-1.0.7::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webdav]
+# required by git-annex (argument)
+=dev-haskell/semigroupoids-5.0.0.4 **
+# required by dev-haskell/fast-logger-2.4.6::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/unix-time-0.3.6 **
+# required by dev-haskell/persistent-2.1.6::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/silently-1.2.5 **
+# required by dev-haskell/fdo-notify-0.3.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[dbus]
+# required by git-annex (argument)
+=dev-haskell/dbus-0.10.12 **
+# required by dev-haskell/aws-0.12.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/conduit-extra-1.1.13.1 **
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/setenv-0.1.1.3 **
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/file-embed-0.0.10 **
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/crypto-api-0.13.2 **
+# required by dev-haskell/warp-tls-3.1.5::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/warp-3.1.10 **
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/vault-0.3.0.6 **
+# required by dev-haskell/ansi-wl-pprint-0.6.7.3::gentoo_prefix
+# required by dev-haskell/optparse-applicative-0.11.0.2::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/ansi-terminal-0.6.2.3 **
+# required by dev-haskell/warp-3.1.10::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/wai-3.0.5.0 **
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/clientsession-0.9.1.1 **
+# required by dev-haskell/skein-1.0.9.4::gentoo_prefix
+# required by dev-haskell/clientsession-0.9.1.1::gentoo_prefix
+# required by dev-haskell/yesod-core-1.4.20.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/tagged-0.8.4 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix
+# required by git-annex (argument)
+=dev-haskell/uuid-1.3.12 **
+# required by dev-haskell/yesod-auth-1.4.13.2::gentoo_prefix
+# required by dev-haskell/yesod-1.4.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/nonce-1.0.2 **
+# required by dev-haskell/hjsmin-0.1.5.1::gentoo_prefix
+# required by dev-haskell/yesod-static-1.5.0.3::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/language-javascript-0.5.14.2 **
+# required by dev-haskell/aws-0.12.1::gentoo_prefix
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[s3]
+# required by git-annex (argument)
+=dev-haskell/cryptohash-0.11.6 **
+# required by dev-vcs/git-annex-6.20160419::gentoo_prefix[webapp]
+# required by git-annex (argument)
+=dev-haskell/shakespeare-2.0.7 **
+# required by dev-python/future (argument)
+=dev-python/future-0.15.2 **
+# required by =dev-python/ipyparallel-5.1.1 (argument)
+=dev-python/ipyparallel-5.1.1 **
+# required by =dev-python/notebook-4.2.1 (argument)
+=dev-python/notebook-4.2.1 **
