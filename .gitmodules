@@ -1,0 +1,3 @@
+[submodule "overlay"]
+	path = overlay
+	url = git@github.com:EBI-predocs/research-software.git
