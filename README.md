@@ -1,6 +1,14 @@
 User guide
 ==========
 
+*This is a configuration file and issue tracker for the [cluster
+installation](var/lib/portage/world) that we maintain. If you have any problems
+or would like a specific tool installed, [report it here](issues/new). It is
+public for easier issue tracking within EBI and to make custom build scripts
+available to anyone who would like to use them, as agreed with [Nick
+Goldman](http://www.ebi.ac.uk/about/people/nick-goldman) in July 2016.*
+
+
 Setting up your environment
 ---------------------------
 
