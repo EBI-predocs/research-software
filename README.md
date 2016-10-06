@@ -65,14 +65,17 @@ options(
 # you will always want this
 stringsAsFactors = FALSE,
 
-# if you want to have a full traceback or post-mortem inspections of errors
-#error = function() traceback(2),
-#error = function() recover(),
-
 # don't wait for X11 but display text menus; also use the EBI CRAN mirror by default
 menu.graphics = FALSE,
 repos = structure(c(CRAN="http://mirrors.ebi.ac.uk/CRAN/"))
 )
+
+# print the traceback of errors on non-interactive scripts
+if (!interactive())
+    options(error = function() {
+        traceback(2)
+        quit(save="no", status=1)
+    })
 ```
 
 ### Linuxbrew
