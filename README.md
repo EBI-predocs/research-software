@@ -11,7 +11,8 @@ Goldman](http://www.ebi.ac.uk/about/people/nick-goldman) in July 2016.*
 Setting up your environment
 ---------------------------
 
-Using any of the methods below, you will be able to use the shared installed packages on [*ebi*](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world) and [*yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world).
+Software packages installed on the computing cluster are often outdated and scientific software largely missing because the administrators only use official repositories. This is why we created a shared installation based on [Gentoo Prefix](https://wiki.gentoo.org/wiki/Project:Prefix).
+Using any of the methods below, you will be able to use the shared installed packages on [*ebi*](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world) and [*yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world) clusters.
 
 ### Using a pre-configured environment (preferred)
 
