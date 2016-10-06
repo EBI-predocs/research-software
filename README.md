@@ -8,26 +8,36 @@ public for easier issue tracking within EBI and to make custom build scripts
 available to anyone who would like to use them, as agreed with [Nick
 Goldman](http://www.ebi.ac.uk/about/people/nick-goldman) in July 2016.*
 
-
 Setting up your environment
 ---------------------------
 
+Using any of the methods below, you will be able to use the shared installed packages on [*ebi*](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world) and [*yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world).
+
 ### Using a pre-configured environment (preferred)
 
-To just use the environment as it is set up, [change your shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_my_shell%3F) to
+To just use the environment as it is set up, [change your shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_my_shell%3F) to the one below:
 
 ```bash
-/nfs/research2/software/prefix/bin/bash
+/nfs/research2/software/prefix/bin/bash # on ebi
+/nfs/software/software/prefix/bin/bash # on yoda
 ```
-
-You can now use all the software listed in the [*world* file](var/lib/portage/world).
 
 ### Setting up paths in the bashrc (alternative)
 
-Alternatively, you can add the path to your cluster `~/.bashrc`.
+Alternatively, you can add the path to your cluster `~/.bashrc`. Do not set your `LD_LIBRARY_PATH` as we are resolving library locations using [RPATH](https://en.wikipedia.org/wiki/Rpath).
 
 ```bash
-export PATH=/nfs/research2/software/prefix/usr/bin:$PATH
+export PATH=/nfs/research2/software/prefix/usr/bin:$PATH # on ebi
+export PATH=/nfs/software/software/prefix/usr/bin:$PATH # on yoda
+```
+
+### Using the software for one session only (alternative)
+
+If you want to try out the prefix setup, use the script below to temporarily add to your your `PATH`. This only affects your current session.
+
+```bash
+/nfs/research2/software/prefix/startprefix # on ebi
+/nfs/software/software/prefix/startprefix # on yoda
 ```
 
 ### Requesting software
