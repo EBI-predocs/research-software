@@ -17,6 +17,9 @@ Using any of the methods below, you will be able to use the shared installed pac
 * [*Installed packages on ebi*](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world)
 * [*Installed packages on yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world)
 
+If you have problems (or you would like something installed) [open it as an issue](issues/new) and we'll
+see what we can do.
+
 ### Using a pre-configured environment (preferred)
 
 To just use the environment as it is set up, [change your shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_my_shell%3F) to the one below:
@@ -43,13 +46,6 @@ If you want to try out the prefix setup, use the script below to temporarily add
 /nfs/research2/software/prefix/startprefix # on ebi
 /nfs/software/software/prefix/startprefix # on yoda
 ```
-
-### Requesting software
-
-If you have problems (or you would like something installed) [open it as an issue](issues/new) and we'll
-see what we can do.
-
-For software to be installed in the general directory it should be useful to more than one person.
 
 Managing your own software
 --------------------------
