@@ -14,12 +14,15 @@ Setting up your environment
 Software packages installed on the computing cluster are often outdated and
 scientific software largely missing because the administrators only use
 official repositories. This is why we created a shared installation based on
-[Gentoo Prefix](https://wiki.gentoo.org/wiki/Project:Prefix). Using any of the
-methods below, you will be able to use the shared installed packages on
-[*ebi*](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world)
-and
-[*yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world)
+[Gentoo Prefix](https://wiki.gentoo.org/wiki/Project:Prefix).  Using any of the
+methods below, you will be able to use the shared installed packages on the
 clusters.
+
+* [*Installed packages on ebi*](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world)
+* [*Installed packages on yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world)
+
+If you have problems (or you would like something installed) [open it as an
+issue](issues/new) and we'll see what we can do.
 
 ### Using a pre-configured environment (preferred)
 
@@ -52,14 +55,6 @@ add to your your `PATH`. This only affects your current session.
 /nfs/research2/software/prefix/startprefix # on ebi
 /nfs/software/software/prefix/startprefix # on yoda
 ```
-
-### Requesting software
-
-If you have problems (or you would like something installed) [open it as an
-issue](issues/new) and we'll see what we can do.
-
-For software to be installed in the general directory it should be useful to
-more than one person.
 
 Managing your own software
 --------------------------
