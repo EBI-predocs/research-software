@@ -1,12 +1,21 @@
 Gentoo Prefix - Admin guide
 ===========================
 
-The research software repository is powered by [Gentoo Prefix](https://wiki.gentoo.org/wiki/Project:Prefix),
-which is essentially a full Gentoo distribution that is installed a directory of the host system.
+The research software repository is powered by [Gentoo
+Prefix](https://wiki.gentoo.org/wiki/Project:Prefix), which is essentially a
+full Gentoo distribution that is installed a directory of the host system.
 
-This has the advantage that it does not require root privileges and can install newer software on
-an existing system without having to worry about backwards compatibility because it is installed
-on top of the host system.
+This has the advantage that it does not require root privileges and can install
+newer software on an existing system without having to worry about backwards
+compatibility because it is installed on top of the host system.
+
+The `master` branch tracks custom build scripts (*ebuilds*) and the `ebi` and
+`yoda` branches track configuration files. Custom build scripts should be
+pushed upstream to the [Gentoo Science
+Project](https://github.com/gentoo-science/sci) once they reach their quality
+standards. You can always send a [pull request
+to](https://github.com/gentoo-science/sci/blob/master/CONTRIBUTING.md) that
+repository in order to have the admins review your approach.
 
 Config files
 ------------
@@ -39,8 +48,8 @@ Using portage
 -------------
 
 [Portage](https://wiki.gentoo.org/wiki/Portage) is Gentoo's package manager
-that will install and update packages, keep track of dependencies, and remove packages
-that are no longer needed.
+that will install and update packages, keep track of dependencies, and remove
+packages that are no longer needed.
 
 The command-line tool is called emerge, and you can install packages by typing
 `emerge <package name>`.
