@@ -17,6 +17,12 @@ IUSE=""
 DEPEND="dev-perl/Moose
 	dev-perl/Devel-OverloadInfo"
 RDEPEND="${DEPEND}
+	dev-perl/Class-Load
+	dev-perl/Package-DeprecationManager
+	dev-perl/MRO-Compat
+	dev-perl/Sub-Identify
+	dev-perl/Eval-Closure
+	dev-perl/IPC-Run
 	sci-biology/hmmer"
 
 S="${WORKDIR}"/${PN}
