@@ -24,18 +24,7 @@ clusters.
 If you have problems (or you would like something installed) [open it as an
 issue](issues/new) and we'll see what we can do.
 
-### Using a pre-configured environment (preferred)
-
-To just use the environment as it is set up, [change your
-shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_my_shell%3F)
-to the one below:
-
-```bash
-/nfs/research2/software/prefix/bin/bash # on ebi
-/nfs/software/software/prefix/bin/bash # on yoda
-```
-
-### Setting up paths in the bashrc (alternative)
+### Setting up paths in the bashrc
 
 Alternatively, you can add the path to your cluster `~/.bashrc`. Do not set
 your `LD_LIBRARY_PATH` as we are resolving library locations using
