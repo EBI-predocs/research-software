@@ -67,7 +67,8 @@ using `pip` (for python 2.7) or `pip3` (for python 3.x):
 
 ```bash
 pip install --user *package-name*
-pip3 install --user *package-name*```
+pip3 install --user *package-name*
+```
 
 If you are developing python scripts, you should investigate using
 [virtualenv](https://virtualenv.pypa.io/en/stable/) to control the packages and
