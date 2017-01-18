@@ -63,13 +63,21 @@ There is a fair amount of packages included in the general installation
 scikits; `ipython` incl. notebooks, etc.)
 
 Non-standard packages should be installed per user, which can be easily done
-using `pip` (for python 2.7) or `pip3` (for python 3.x).
+using `pip` (for python 2.7) or `pip3` (for python 3.x):
+
+```bash
+pip install --user *package-name*
+pip3 install --user *package-name*```
+
+If you are developing python scripts, you should investigate using
+[virtualenv](https://virtualenv.pypa.io/en/stable/) to control the packages and
+python version you are using.
 
 ### R packages
 
 R packages often change their API, break from time to time, and are generally
 not that stable. This is why there is no central installation of CRAN and
-BioConductor, but euch user should maintain their own installation. This is not
+BioConductor, but each user should maintain their own installation. This is not
 a problem because R comes with its own package manager.
 
 Below is an example *~/.Rprofile* that sets up the user environment:
