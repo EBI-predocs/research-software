@@ -7,6 +7,7 @@ app-portage/layman
 app-shells/bash
 app-shells/bash-completion
 app-shells/fish
+app-text/dos2unix
 app-text/pandoc
 app-text/pdftk
 app-text/texlive
@@ -36,8 +37,11 @@ dev-vcs/mercurial
 dev-vcs/subversion
 media-gfx/graphviz
 media-gfx/imagemagick
+net-analyzer/netcat
 net-libs/nodejs
+net-misc/ghi
 sci-biology/HTSeq
+sci-biology/PfamScan
 sci-biology/bioperl
 sci-biology/biopython
 sci-biology/bowtie

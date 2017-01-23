@@ -1,6 +1,8 @@
 sci-biology/* **
 =dev-haskell/http-4000.2.22 ** # pandoc[network-uri]
 =sys-libs/libseccomp-2.3.1 **
+# required by phantomjs (argument)
+=www-client/phantomjs-2.0.0-r1 **
 # required by numba (argument)
 =dev-python/numba-0.26.0 **
 # required by dev-python/numba-0.26.0::gentoo_prefix
@@ -1345,3 +1347,96 @@ sci-biology/* **
 =dev-python/ipyparallel-5.1.1 **
 # required by =dev-python/notebook-4.2.1 (argument)
 =dev-python/notebook-4.2.1 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Module-Runtime-Conflicts-0.2.0 **
+# required by dev-perl/Class-Load-0.200.0-r1::gentoo_prefix
+# required by dev-perl/Class-Load-XS-0.90.0::gentoo_prefix
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Package-Stash-0.370.0 **
+# required by dev-perl/Module-Build-Tiny-0.39.0::gentoo_prefix
+# required by dev-perl/Module-Runtime-Conflicts-0.2.0::gentoo_prefix
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/ExtUtils-InstallPaths-0.10.0 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Devel-OverloadInfo-0.4.0 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Sub-Identify-0.120.0 **
+# required by dev-perl/Package-Stash-0.370.0::gentoo_prefix[-minimal]
+# required by dev-perl/Package-DeprecationManager-0.170.0::gentoo_prefix
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Package-Stash-XS-0.280.0 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Dist-CheckConflicts-0.110.0 **
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Moose-2.160.500 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Package-DeprecationManager-0.170.0 **
+# required by dev-perl/Module-Build-Tiny-0.39.0::gentoo_prefix
+# required by dev-perl/Module-Runtime-Conflicts-0.2.0::gentoo_prefix
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/ExtUtils-Helpers-0.22.0 **
+# required by dev-perl/Module-Runtime-Conflicts-0.2.0::gentoo_prefix
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Module-Build-Tiny-0.39.0 **
+# required by dev-perl/Module-Build-Tiny-0.39.0::gentoo_prefix
+# required by dev-perl/Module-Runtime-Conflicts-0.2.0::gentoo_prefix
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/ExtUtils-Config-0.8.0 **
+# required by dev-perl/Eval-Closure-0.130.0::gentoo_prefix[-minimal]
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Devel-LexAlias-0.50.0 **
+# required by dev-perl/Devel-LexAlias-0.50.0::gentoo_prefix
+# required by dev-perl/Eval-Closure-0.130.0::gentoo_prefix[-minimal]
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Devel-Caller-2.60.0 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Eval-Closure-0.130.0 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/MRO-Compat-0.120.0-r1 **
+# required by dev-perl/Moose-2.160.500::gentoo_prefix
+# required by sci-biology/PfamScan-20161004::overlay
+# required by PfamScan (argument)
+=dev-perl/Class-Load-XS-0.90.0 **
+# required by ghi (argument)
+=net-misc/ghi-1.2.0 **
+# required by net-misc/ghi-1.2.0::overlay
+# required by ghi (argument)
+=dev-ruby/pygments-0.6.0 **
+# required by dev-ruby/pygments-0.6.0::overlay
+# required by net-misc/ghi-1.2.0::overlay
+# required by ghi (argument)
+=dev-ruby/posix-spawn-0.3.12 **
+# required by net-misc/ghi-1.2.0::overlay
+# required by ghi (argument)
+=dev-ruby/pygments_rb-0.6.3 **
