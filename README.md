@@ -31,8 +31,7 @@ shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_m
 to the one below:
 
 ```bash
-/nfs/research2/software/prefix/bin/bash # on ebi
-/nfs/software/software/prefix/bin/bash # on yoda
+/nfs/software/software/prefix/bin/bash
 ```
 
 ### Setting up paths in the bashrc (alternative)
@@ -42,8 +41,7 @@ your `LD_LIBRARY_PATH` as we are resolving library locations using
 [RPATH](https://en.wikipedia.org/wiki/Rpath).
 
 ```bash
-export PATH=/nfs/research2/software/prefix/usr/bin:$PATH # on ebi
-export PATH=/nfs/software/software/prefix/usr/bin:$PATH # on yoda
+export PATH=/nfs/software/software/prefix/usr/bin:$PATH
 ```
 
 ### Using the software for one session only (alternative)
@@ -52,16 +50,15 @@ If you want to try out the prefix setup, use the script below to temporarily
 add to your your `PATH`. This only affects your current session.
 
 ```bash
-/nfs/research2/software/prefix/startprefix # on ebi
-/nfs/software/software/prefix/startprefix # on yoda
+/nfs/software/software/prefix/startprefix
 ```
 
 Managing your own software
 --------------------------
 
-Install your own software in `/nfs/research2/<your_group>/<your_user>/`, not in
+Install your own software in your group's NFS folder, not in
 your `$HOME` directory.  The reason for that is that your home space is limited
-to 10 Gb and `research2` is generally faster.
+to 10 Gb and NFS is generally faster.
 
 ### Python packages
 
