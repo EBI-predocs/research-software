@@ -26,8 +26,8 @@ issue](https://github.com/EBI-predocs/research-software/issues/new) and we'll se
 
 ### Using a pre-configured environment (preferred)
 
-To just use the environment as it is set up, [change your Login
-Shell](https://www.ebi.ac.uk/systems-srv/mp/login)
+To just use the environment as it is set up, [change your
+login shell](https://www.ebi.ac.uk/systems-srv/mp/login)
 to the one below:
 
 ```bash
@@ -101,9 +101,8 @@ options(
 # you will always want this
 stringsAsFactors = FALSE,
 
-# don't wait for X11 but display text menus; also use the EBI CRAN mirror by default
-menu.graphics = FALSE,
-repos = structure(c(CRAN="http://mirrors.ebi.ac.uk/CRAN/"))
+# don't wait for X11 but display text menus
+menu.graphics = FALSE
 )
 
 # print the traceback of errors on non-interactive scripts
