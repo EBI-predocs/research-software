@@ -27,7 +27,7 @@ issue](issues/new) and we'll see what we can do.
 ### Using a pre-configured environment (preferred)
 
 To just use the environment as it is set up, [change your
-shell](https://www.ebi.ac.uk/systems-srv/public-wiki/index.php/How_do_I_change_my_shell%3F)
+login shell](https://www.ebi.ac.uk/systems-srv/mp/login)
 to the one below:
 
 ```bash
@@ -99,9 +99,8 @@ options(
 # you will always want this
 stringsAsFactors = FALSE,
 
-# don't wait for X11 but display text menus; also use the EBI CRAN mirror by default
-menu.graphics = FALSE,
-repos = structure(c(CRAN="http://mirrors.ebi.ac.uk/CRAN/"))
+# don't wait for X11 but display text menus
+menu.graphics = FALSE
 )
 
 # print the traceback of errors on non-interactive scripts
