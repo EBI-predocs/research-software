@@ -2,8 +2,8 @@ User guide
 ==========
 
 *This is a configuration file and issue tracker for the [cluster
-installation](var/lib/portage/world) that we maintain. If you have any problems
-or would like a specific tool installed, [report it here](issues/new). It is
+installation](https://github.com/EBI-predocs/research-software/blob/ebi/var/lib/portage/world) that we maintain. If you have any problems
+or would like a specific tool installed, [report it here](https://github.com/EBI-predocs/research-software/issues/new). It is
 public for easier issue tracking within EBI and to make custom build scripts
 available to anyone who would like to use them, as agreed with [Nick
 Goldman](http://www.ebi.ac.uk/about/people/nick-goldman) in July 2016.*
@@ -22,7 +22,7 @@ clusters.
 * [*Installed packages on yoda*](https://github.com/EBI-predocs/research-software/blob/yoda/var/lib/portage/world)
 
 If you have problems (or you would like something installed) [open it as an
-issue](issues/new) and we'll see what we can do.
+issue](https://github.com/EBI-predocs/research-software/issues/new) and we'll see what we can do.
 
 ### Using a pre-configured environment (preferred)
 
@@ -33,6 +33,8 @@ to the one below:
 ```bash
 /nfs/software/software/prefix/bin/bash
 ```
+
+Note that the change might take a while (in the order of minutes) to be applied.
 
 ### Setting up paths in the bashrc (alternative)
 
@@ -50,7 +52,7 @@ If you want to try out the prefix setup, use the script below to temporarily
 add to your your `PATH`. This only affects your current session.
 
 ```bash
-/nfs/software/software/prefix/startprefix
+bash /nfs/software/software/prefix/startprefix
 ```
 
 Managing your own software
@@ -115,7 +117,7 @@ if (!interactive())
 
 Many will know [Homebrew](http://brew.sh/) for OS-X. In short, it is a package
 manager that does not require admin right. There is also
-[Linuxbrew](http://brew.sh/linuxbrew/), that uses the same platform to install
+[Linuxbrew](http://linuxbrew.sh), that uses the same platform to install
 software in a Linux environment.
 
 If you need something that is not in the general software directory, using this
