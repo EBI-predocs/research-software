@@ -27,7 +27,7 @@ issue](https://github.com/EBI-predocs/research-software/issues/new) and we'll se
 ### Using a pre-configured environment (preferred)
 
 To just use the environment as it is set up, [change your
-login shell](https://www.ebi.ac.uk/systems-srv/mp/login)
+login shell](https://www.ebi.ac.uk/systems-srv/mp/account/)
 to the one below:
 
 ```bash
