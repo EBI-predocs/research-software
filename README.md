@@ -23,7 +23,6 @@ Remember! Install your own software in your group's `NFS` folder (for example in
 your `$HOME` directory. 
 The reason for that is that your home space is limited to 10GB only and `NFS` storage is generally faster.
 
-
 ### Conda (recommended)
 
 [Conda](https://docs.conda.io) is a popular open source package and environment management system that runs seamlessly across platforms (Windows, macOS and Linux) and does not require admin rights. 
@@ -77,7 +76,22 @@ You can have both Conda and Linuxbrew installed in your system, but make sure wh
 which python
 ```
 
-### Software Containers 
+### Other useful software tools
+
+#### Workflow managers
+
+Do you feel like you have scripts all over the place and you don't remember in what order you should run them? You probably are in need of a workflow manager. 
+
+Workflow managers are software tools that allow you to create reproducible and scalable data analyses by specifying modular computing blocks of defined inputs, outputs and operations to perform.
+This way, you can organize every step in a pipeline that can be scaled to as many computing nodes as you can, run as many times as you want and exported to other platforms (cool, right?).
+
+There are many workflow managers available, two of the most popular for scientific computing are:
+
+- [Snakemake](https://snakemake.readthedocs.io) (recommended): written in Python and nicely integrated in Conda.
+- [Nextflow](https://www.nextflow.io): backend in Java but simple instructions and nicely integrated with Singularity containers. 
+
+
+#### Containers 
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs in any computing environment.
 Some popular software containers include Docker and Singularity.
