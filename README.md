@@ -1,13 +1,13 @@
 EBI Research Software
 ==========
 
-##### What is this repository?
+#### What's in this repository?
 
 This repository contains a collection of instructions, configuration files and tips to manage software installations on the [EBI computing clusters](https://sysinf.ebi.ac.uk). 
 It also serves as an issue tracker to get help from fellow EBI students and researchers - if you have any problems or would like a specific tool installed, [report it here](https://github.com/EBI-predocs/research-software/issues/new).
 This repository is public for easier issue tracking within EBI and to make custom build scripts available to anyone who would like to use them, as agreed with [Nick Goldman](http://www.ebi.ac.uk/about/people/nick-goldman) in July 2016.
 
-##### What happened to the Prefix software installation?
+#### What about the Prefix software?
 
 Previously, we used to maintain a shared software
 installation based on [Gentoo Prefix](https://wiki.gentoo.org/wiki/Project:Prefix).
@@ -98,7 +98,7 @@ Below are the instructions to setup the environment to be able to use the shared
 If you have problems (or you would like something installed) [open it as an
 issue](https://github.com/EBI-predocs/research-software/issues/new).
 
-### Using a pre-configured environment (preferred)
+#### Using a pre-configured environment (preferred)
 
 To just use the environment as it is set up, [change your
 login shell](https://www.ebi.ac.uk/systems-srv/mp/account/)
@@ -110,7 +110,7 @@ to the one below:
 
 Note that the change might take a while (in the order of minutes) to be applied.
 
-### Setting up paths in the bashrc (alternative)
+#### Setting up paths in the bashrc (alternative)
 
 Alternatively, you can add the path to your cluster `~/.bashrc`. Do not set
 your `LD_LIBRARY_PATH` as we are resolving library locations using
@@ -120,7 +120,7 @@ your `LD_LIBRARY_PATH` as we are resolving library locations using
 export PATH=/nfs/software/software/prefix/usr/bin:$PATH
 ```
 
-### Using the software for one session only (alternative)
+#### Using the software for one session only (alternative)
 
 If you want to try out the prefix setup, use the script below to temporarily
 add to your your `PATH`. This only affects your current session.
@@ -129,7 +129,7 @@ add to your your `PATH`. This only affects your current session.
 bash /nfs/software/software/prefix/startprefix
 ```
 
-### Python packages
+#### Python packages
 
 There are two version of python installed: 2.7 and the latest in the 3.x
 series. The default executable is 2.7, and you can access 3.x using
@@ -150,7 +150,7 @@ pip3 install --user *package-name*
 If you are developing python scripts, you should investigate using
 [virtualenv](https://virtualenv.pypa.io/en/stable/) to control the packages and python version you are using.
 
-### R packages
+#### R packages
 
 R packages often change their API, break from time to time, and are generally not that stable. 
 This is why there is no central installation of CRAN and BioConductor, but each user should maintain their own installation. 
