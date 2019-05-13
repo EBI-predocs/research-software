@@ -91,11 +91,12 @@ There are many workflow managers available, two of the most popular for scientif
 - [Nextflow](https://www.nextflow.io): backend in Java but simple instructions and nicely integrated with Singularity containers. 
 
 
-#### Containers 
+#### Software Containers 
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs in any computing environment.
-Some popular software containers include Docker and Singularity.
-Michael Hall is the expert and has provided a useful guide on [how to use biocontainers](docs/using_biocontainers.pdf).
+The two most popular software container tools are [Docker](https://docs.docker.com/) and [Singularity](https://www.sylabs.io/docs/).
+
+[Michael Hall](https://github.com/mbhall88) has provided a useful guide on [how to use biocontainers](docs/using_biocontainers.pdf) and co-ran the [Introduction to Singularity course](https://git.embl.de/grp-bio-it/singularity-training-2019) as part of the [BioIT project in Heidelberg](https://bio-it.embl.de), where you can find other courses and learning materials.
 
 
 Setting up the Prefix environment
