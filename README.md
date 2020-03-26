@@ -90,6 +90,8 @@ There are many workflow managers available, two of the most popular for scientif
 - [Snakemake](https://snakemake.readthedocs.io) (recommended): written in Python and nicely integrated in Conda.
 - [Nextflow](https://www.nextflow.io): backend in Java but simple instructions and nicely integrated with Singularity containers. 
 
+Brice Letcher and Paul Saary have run a Snakemake workshop at EMBL and EBI predoc courses. The course ran at the EBI is available [here](https://bricoletc.github.io/WMS_teaching/index.html).
+
 
 #### Software Containers 
 
